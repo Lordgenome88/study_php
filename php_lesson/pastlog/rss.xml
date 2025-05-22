@@ -1,0 +1,3349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+
+<channel>
+	<title>ともすた</title>
+	<atom:link href="https://tomosta.jp/feed/" rel="self" type="application/rss+xml"/>
+	<link>https://tomosta.jp</link>
+	<description>プログラミング学習コミュニティ</description>
+	<lastBuildDate>Mon, 12 May 2025 05:53:20 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://tomosta.jp/wp-content/uploads/2021/12/manabee_512-150x150.png</url>
+	<title>ともすた</title>
+	<link>https://tomosta.jp</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>CursorのAI機能でプログラミングしよう</title>
+		<link>https://tomosta.jp/2025/05/cursor-ai-programming/</link>
+					<comments>https://tomosta.jp/2025/05/cursor-ai-programming/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Mon, 12 May 2025 05:52:43 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<category><![CDATA[Cursor]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=26652</guid>
+
+					<description><![CDATA[AIエディタの「Cursor」には、エディタ内にチャット機能が搭載されていて、AIとチャットをしたり、作業を依頼することができます。ここでは、そんなCursorのAI機能を実際に使いながら、全体の流れを把握していきましょ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="CursorのAI機能でプログラミングしよう - Cursorエディタ入門" width="500" height="281" src="https://www.youtube.com/embed/jSAy06X7KFs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>AIエディタの「Cursor」には、エディタ内にチャット機能が搭載されていて、AIとチャットをしたり、作業を依頼することができます。ここでは、そんなCursorのAI機能を実際に使いながら、全体の流れを把握していきましょう。細かなパネルや設定は後ほど解説しますので、まずは操作の雰囲気をつかんでください。</p>
+
+
+
+<h2 class="wp-block-heading">新しいファイルを作成して保存する</h2>
+
+
+
+<p>Cursorを起動したら、「ファイル→新しいテキストファイル」メニューを選択します。ショートカットキーが割り当たっているので、これを使うと良いでしょう。macOSがCommand+N、WindowsがControl+Nです。</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-40-1024x576.png" alt="" class="wp-image-26568" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-40-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-40-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-40-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-40-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-40.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><br>Cursorでファイルを編集する場合は、必ず先に保存しておきましょう。後で紹介する「言語モード」が適切に切り替わり、Cursorの機能を活用することができます。ファイルを保存する場合のショートカットは、macOSはCommand+S、WindowsはControl+Sになります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-41-1024x576.png" alt="" class="wp-image-26570" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-41-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-41-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-41-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-41-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-41.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>適当な場所、例えばデスクトップなどに「cursor」というフォルダを作成し、その中にindex.htmlという名前で保存します。拡張子.htmlを忘れないようにしてください。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-42-1024x576.png" alt="" class="wp-image-26572" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-42-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-42-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-42-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-42-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-42.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">プロジェクトフォルダを開こう</h2>
+
+
+
+<p>また、Cursorはフォルダをエディタ上に開くことができ、便利な操作が行えます。そこで、今作成したフォルダを開いておきましょう。</p>
+
+
+
+<p>「ファイル→フォルダを開く」メニューを選択し、先ほど作成した「cursor」フォルダを指定します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-43-1024x576.png" alt="" class="wp-image-26574" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-43-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-43-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-43-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-43-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-43.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、左側のエクスプローラーパネルにフォルダ構造が表示され、index.htmlが確認できます。この状態でエディタ内からファイルを選択・編集できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-44-1024x576.png" alt="" class="wp-image-26577" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-44-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-44-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-44-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-44-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-44.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">AIの補完機能を使おう</h2>
+
+
+
+<p>それでは、「index.html」ファイルにHTMLの文書を作成していきましょう。とはいえ、ここではAIに助けてもらいながら作成していきます。</p>
+
+
+
+<p>左側のエクスプローラーパネルで、「index.html」をクリックしてエディタで開いたら、「&lt;」を入力します。すると、HTMLタグの候補が表示されます。Cursorではこのように、HTMLタグなどの辞書を持っているので一覧から選ぶだけで入力ができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-45-1024x576.png" alt="" class="wp-image-26579" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-45-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-45-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-45-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-45-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-45.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ここでは、一番上の「!DOCTYPE」を選びましょう。</p>
+
+
+
+<p>すると今度は、続きの内容が薄いグレーの文字で表示されます。これは、CursorのAI機能が続きを予測して補完してくれています。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-46-1024x576.png" alt="" class="wp-image-26581" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-46-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-46-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-46-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-46-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-46.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>AIの提案が適切な場合は、Tabキーを押すると確定されます。受け入れたくない場合は、そのまま文字を入力すると、提案は削除されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-47-1024x576.png" alt="" class="wp-image-26583" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-47-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-47-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-47-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-47-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-47.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Cursor Tabの設定と制限</h2>
+
+
+
+<p>この補完機能は「Cursor Tab」といい、利用するかどうかを制御できます。エディタの右下の「Cursor Tab」というメニューをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-49-1024x576.png" alt="" class="wp-image-26586" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-49-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-49-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-49-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-49-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-49.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>次の設定ができます。</p>
+
+
+
+<ul class="wp-block-list">
+<li>Disable globally … AI補完を全ファイルで無効化</li>
+
+
+
+<li>Disable for html … HTMLファイルだけ無効化</li>
+
+
+
+<li>Model … 使用するAIモデルの選択（詳細は別途解説）</li>
+</ul>
+
+
+
+<p>無料プランではCursorTabの使用回数に制限があります。上限に達すると補完が停止するため、継続して利用したい場合は有料プランへのアップグレードを検討しましょう。</p>
+
+
+
+<h2 class="wp-block-heading">AI Paneを表示しよう</h2>
+
+
+
+<p>右上のToggle AI Paneボタンをクリックしましょう。画面の右側にチャットパネルが開きます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-50-1024x576.png" alt="" class="wp-image-26603" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-50-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-50-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-50-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-50-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-50.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>通常のチャットAIサービスと同様に、質問などを入力して会話をすることができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-51-1024x576.png" alt="" class="wp-image-26605" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-51-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-51-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-51-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-51-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-51.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>モデルを切り替えることもできます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-52-1024x576.png" alt="" class="wp-image-26606" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-52-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-52-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-52-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-52-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-52.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Sendボタンをクリックすると、回答が確認できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-53-1024x576.png" alt="" class="wp-image-26608" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-53-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-53-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-53-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-53-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-53.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">コードを生成しよう</h2>
+
+
+
+<p>Cursorのチャット機能では、会話をするだけではなく、コードを代わりに作ってもらったりもできます。チャットエリアに次のように入力しましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>HTMLの基本タグを書きたいです</code></pre>
+
+
+
+<p>すると回答するのと同時に、AIがindex.htmlを書き換えてくれます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-54-1024x576.png" alt="" class="wp-image-26610" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-54-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-54-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-54-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-54-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-54.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>背景が緑色の状態では、まだファイル自体には反映されていないので、確認して問題がなければ「Accept file」ボタンをクリックします。とはいえ、ここではもう少し依頼を続けてみましょう。</p>
+
+
+
+<h2 class="wp-block-heading">追加リクエストと修正</h2>
+
+
+
+<p>例えばここでは、「body」タグ内にサンプルの内容が含まれているので、これを削除してもらいましょう。次のように入力します。</p>
+
+
+
+<pre class="wp-block-code"><code>bodyタグの内容は空にしてください</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-55-1024x576.png" alt="" class="wp-image-26613" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-55-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-55-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-55-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-55-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-55.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Sendを押します。AIが修正をしてくれるので、Accept fileをクリックし、編集内容を確定しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-56-1024x576.png" alt="" class="wp-image-26615" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-56-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-56-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-56-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-56-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-56.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">インラインチャットを利用しよう</h2>
+
+
+
+<p>Cursorのチャット機能は、常にファイル全体を書き換えてしまうので、一部だけを書き換えたいという場合には「インラインチャット」機能が便利です。</p>
+
+
+
+<p>Cursorで編集していると、薄い文字で次の図のように表示されることがあります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-57-1024x576.png" alt="" class="wp-image-26618" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-57-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-57-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-57-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-57-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-57.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Cmd+I（Ctrl+I）でチャット、Cmd+K（Ctrl+K）で生成モードでインラインチャットを起動できます。ここでは、Command+K（WindowsはControl+K）でジェネレートを起動しましょう。</p>
+
+
+
+<p>入力欄が表示されるので、依頼内容を記述します。ここでは次のように入力してみましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>ボタンを作って下さい</code></pre>
+
+
+
+<p>「Generate」ボタンをクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-58-1024x576.png" alt="" class="wp-image-26620" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-58-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-58-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-58-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-58-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-58.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、すぐ下の部分でAIがタグを提案します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-59-1024x576.png" alt="" class="wp-image-26622" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-59-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-59-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-59-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-59-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-59.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>また、「Follow-up instructions」というエリアで追加の要望などを入力することもできます。</p>
+
+
+
+<p>ここでは、次のように入力してみましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>startというid属性をつけてください</code></pre>
+
+
+
+<p>「Submit Edit」をクリックしましょう。id=&#8221;start&#8221;が付与されたタグが再提案されます。 </p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-60-1024x576.png" alt="" class="wp-image-26626" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-60-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-60-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-60-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-60-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-60.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>生成内容に問題がなければ、行末のAcceptボタンをクリックするか、Command+Enter／Control+Enterで確定します。不要な場合はRejectで破棄できます。</p>
+
+
+
+<h2 class="wp-block-heading">生成内容を確認しよう</h2>
+
+
+
+<p>こうして生成されたコードをWebブラウザで確認してみましょう。ファイルを保存して、Webブラウザで開いてみます。次のように、ボタンが表示されることがわかります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-62-1024x576.png" alt="" class="wp-image-26628" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-62-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-62-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-62-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-62-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-62.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>こうして、コードを自動的に生成することができます。</p>
+
+
+
+<h2 class="wp-block-heading">エージェント機能を使ってみよう</h2>
+
+
+
+<p>続けて、チャット機能でJavaScriptを生成してみましょう。Cursorでは新しいファイルを作成したりすることもできます。この時、Cursorでフォルダを開いておく必要があるので気をつけましょう。</p>
+
+
+
+<p>チャット欄に次のように入力します。なお、チャット欄で改行したい場合はCmd+Enter（Ctrl+Enter）を入力します。</p>
+
+
+
+<p>main.jsというファイルを作成してください<br>ボタンをクリックしたらカウントアップするプログラムを作成してください<br>index.htmlの画面上にカウントを表示するエリアを作ってそこに表示してください</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-68-1024x576.png" alt="" class="wp-image-26642" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-68-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-68-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-68-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-68-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-68.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>「Send」ボタンをクリックしましょう。すると、自動的に「main.js」というファイルが生成され、中にプログラムが書き込まれます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-69-1024x576.png" alt="" class="wp-image-26643" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-69-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-69-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-69-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-69-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-69.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>また、同時にindex.htmlも修正し、カウント表示用の&lt;p&gt;タグと&lt;script&gt;タグを追加します。なお、背景が赤いエリアは削除を提案している箇所で、緑の箇所が追加を提案している箇所です。それぞれ確認して、問題なければ「Accept file」をクリックしましょう。</p>
+
+
+
+<p>また、複数のファイルの変更箇所を一気にすべて承認するには、チャット欄右下のAccept allを選択して一括確定します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-71-1024x576.png" alt="" class="wp-image-26647" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-71-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-71-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-71-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-71-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-71.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>生成された内容をブラウザで確認すると「現在のカウント」という文字とクリックボタンが表示されます。ボタンを押すたびに数字が1ずつ増加し、カウントアップ処理が正しく動作することを確認できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-72-1024x576.png" alt="" class="wp-image-26650" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-72-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-72-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-72-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-72-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-72.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>このように、作ってほしい内容をチャット欄で伝えるだけで、どんどんコードを生成してくれます。いろいろなコードを生成して使っていきましょう。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2025/05/cursor-ai-programming/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>PHPでスマホアプリが開発できる！？　『NativePHP』</title>
+		<link>https://tomosta.jp/2025/05/nativephp/</link>
+					<comments>https://tomosta.jp/2025/05/nativephp/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Thu, 08 May 2025 08:01:00 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=26460</guid>
+
+					<description><![CDATA[PHPといえば、WordPressなどのサーバー言語としては人気があるものの、クライアントサイドのプログラム開発には利用できないことがネックでした。しかし今回PHPフレームワークである「Laravel」を用いてネイティブ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="NativePHP - PHPでスマホアプリが開発できちゃう開発環境" width="500" height="281" src="https://www.youtube.com/embed/3CB0vYCvZ7A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>PHPといえば、WordPressなどのサーバー言語としては人気があるものの、クライアントサイドのプログラム開発には利用できないことがネックでした。しかし今回PHPフレームワークである「Laravel」を用いてネイティブアプリケーションを構築可能にする 「<a href="https://nativephp.com/">NativePHP</a>」 というプロジェクトが発動しました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-1024x576.png" alt="" class="wp-image-26462" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>NativePHPは、LaravelとElectronの連携により、PHPによるデスクトップおよびモバイルアプリケーション開発を実現します。</p>
+
+
+
+<h2 class="wp-block-heading">Composerをインストールしよう</h2>
+
+
+
+<p>NativePHPを利用するには、PHPのパッケージマネージャーである「Composer」が必要です。まずは、ComposerのWebサイトにアクセスしましょう。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://getcomposer.org/">Composer</a></li>
+</ul>
+
+
+
+<p>「Donwload」メニューをクリックすると、コマンドが表示されるのでこれをコピーしてターミナルに貼り付けます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-1-1024x576.png" alt="" class="wp-image-26463" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-1-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-1-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-1-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-1-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-1.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なお、PHPが動作する環境も必要となるのでこちらも別途準備しておきましょう。</p>
+
+
+
+<h2 class="wp-block-heading">Laravelのプロジェクトを作ろう</h2>
+
+
+
+<p>それではまずは、Laravelの新規プロジェクトを作成しましょう。まずは、Laravelのコマンドを利用できるようにします。ターミナルで次のように入力しましょう</p>
+
+
+
+<pre class="wp-block-code"><code>composer global require laravel/installer</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-2-1024x576.png" alt="" class="wp-image-26464" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-2-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-2-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-2-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-2-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-2.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、「laravel」というコマンドが利用できるようになります。そしたら、Laravelのインストーラを用いて新規プロジェクトを作成します。</p>
+
+
+
+<pre class="wp-block-code"><code>laravel new nativephp</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-3-1024x576.png" alt="" class="wp-image-26465" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-3-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-3-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-3-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-3-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-3.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>プロジェクト作成時には、データベース（例：SQLite）やnpm依存のインストールについても確認されます。ここでは、最初に選択されている選択肢を選んでいきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-4-1024x576.png" alt="" class="wp-image-26467" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-4-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-4-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-4-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-4-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-4.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">NativePHPの導入</h2>
+
+
+
+<p>続いて、作成したLaravelプロジェクトのディレクトリで、NativePHPを導入します。</p>
+
+
+
+<pre class="wp-block-code"><code>composer require nativephp/electron</code></pre>
+
+
+
+<p>続いて、以下のセットアップコマンドを実行することで必要な依存ファイルの取得と準備が整います。</p>
+
+
+
+<pre class="wp-block-code"><code>php artisan native:install
+npm i</code></pre>
+
+
+
+<p>インストールが終わったら、次のコマンドでElectronアプリケーションが起動できます</p>
+
+
+
+<pre class="wp-block-code"><code>composer native:serve</code></pre>
+
+
+
+<p>Electronベースのネイティブウィンドウが起動し、PHPベースのUIアプリケーション開発が開始できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-5-1024x576.png" alt="" class="wp-image-26470" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-5-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-5-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-5-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-5-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-5.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Kitchen-sinkを試してみよう</h2>
+
+
+
+<p>NativePHPでできる事を確認するには、デモプログラムである「Kitchen-sink」を使ってみると良いでしょう。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://github.com/NativePHP/kitchen-sink">Kitchen-sink</a></li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-6-1024x576.png" alt="" class="wp-image-26471" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-6-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-6-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-6-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-6-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-6.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>「Code→Download ZIP」をクリックしてZIPファイルを展開したら、次のコマンドでインストール作業を進めて起動しましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>composer install &amp;&amp; npm i
+composer native:dev</code></pre>
+
+
+
+<p>デモでは以下のような処理が確認可能です</p>
+
+
+
+<ul class="wp-block-list">
+<li>クリップボードの取得・操作</li>
+
+
+
+<li>ファイル選択ダイアログや保存ダイアログの呼び出し</li>
+
+
+
+<li>Dockアイコンの通知制御（バウンス処理）</li>
+
+
+
+<li>OSネイティブのアラート表示　など</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-7-1024x576.png" alt="" class="wp-image-26472" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-7-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-7-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-7-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-7-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-7.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Laravelらしいディレクトリ構成が保たれており、コントローラー、モデル、ビュー（Bladeテンプレート）を活用した開発が可能です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-8-1024x576.png" alt="" class="wp-image-26473" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-8-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-8-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-8-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-8-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-8.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">利用料金とライセンス</h2>
+
+
+
+<p>NativePHPは有償ライセンス制となっており、現時点では以下のような価格設定がなされています</p>
+
+
+
+<ul class="wp-block-list">
+<li>Mini：$50／年</li>
+
+
+
+<li>Pro：$150／年</li>
+
+
+
+<li>Max：$250／年</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-9-1024x576.png" alt="" class="wp-image-26474" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-9-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-9-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-9-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-9-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-9.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なお、将来的には無料またはオープンソース版の提供も検討されている旨が公式FAQに記載されています。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2025/05/image-10-1024x576.png" alt="" class="wp-image-26475" srcset="https://tomosta.jp/wp-content/uploads/2025/05/image-10-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2025/05/image-10-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2025/05/image-10-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2025/05/image-10-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2025/05/image-10.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>現在、ReactやFlutterなどのフロントエンド技術が主流の中、既存のPHP/Laravelスキルを活かしてネイティブアプリを構築できるという点において、NativePHPは非常に魅力的な選択肢です。</p>
+
+
+
+<p>PHP経験者で、これからデスクトップやモバイルアプリ開発にチャレンジしてみたい方には、一度試してみる価値があると言えるでしょう。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://nativephp.com/">NativePHP</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2025/05/nativephp/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DeepWiki – GitHubのソースを解析してドキュメントを作る無償サービス</title>
+		<link>https://tomosta.jp/2025/04/deepwiki/</link>
+					<comments>https://tomosta.jp/2025/04/deepwiki/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Mon, 28 Apr 2025 07:19:27 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<category><![CDATA[Devin]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=26453</guid>
+
+					<description><![CDATA[AIデベロッパーツール「Devin」の開発チームCognition AIが、「DeepWiki」というサービスを公開しました。 このサービスは、GitHub上のリポジトリを自動解析し、解説ドキュメントを生成する無料のオー [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>AIデベロッパーツール「<a href="https://devin.ai/">Devin</a>」の開発チーム<a href="https://cognition.ai/">Cognition AI</a>が、「<a href="https://deepwiki.org/">DeepWiki</a>」というサービスを公開しました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="741" src="https://tomosta.jp/wp-content/uploads/2025/04/image-1024x741.png" alt="" class="wp-image-26454" srcset="https://tomosta.jp/wp-content/uploads/2025/04/image-1024x741.png 1024w, https://tomosta.jp/wp-content/uploads/2025/04/image-300x217.png 300w, https://tomosta.jp/wp-content/uploads/2025/04/image-768x556.png 768w, https://tomosta.jp/wp-content/uploads/2025/04/image-1536x1111.png 1536w, https://tomosta.jp/wp-content/uploads/2025/04/image-2048x1482.png 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>このサービスは、GitHub上のリポジトリを自動解析し、解説ドキュメントを生成する無料のオープンソースAIツールです。</p>
+
+
+
+<p>トップページには現在、<a href="https://deepwiki.com/microsoft/vscode">Visual Studio Code</a>のソースコードや<a href="https://deepwiki.com/xai-org/grok-1">Grok</a>のソースコード、<a href="https://deepwiki.com/bitcoin/bitcoin">BitCoin</a>のソースコードなどのドキュメントが掲載されています。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="741" src="https://tomosta.jp/wp-content/uploads/2025/04/image-1-1024x741.png" alt="" class="wp-image-26455" srcset="https://tomosta.jp/wp-content/uploads/2025/04/image-1-1024x741.png 1024w, https://tomosta.jp/wp-content/uploads/2025/04/image-1-300x217.png 300w, https://tomosta.jp/wp-content/uploads/2025/04/image-1-768x556.png 768w, https://tomosta.jp/wp-content/uploads/2025/04/image-1-1536x1111.png 1536w, https://tomosta.jp/wp-content/uploads/2025/04/image-1-2048x1482.png 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ユニークなのが、GitHubのアドレスがあれば「github.com」の部分を「deepwiki.com」に変更するだけで、ドキュメントが生成されるとのことで、GitHub上で公開されているすべてのリポジトリが対象となります。</p>
+
+
+
+<p>DeepWikiを利用すると、GitHubのリポジトリのコードを読み取り、自然言語での説明に加え、アーキテクチャ図やシーケンス図などの図解も自動生成されます。さらには、不明な点をチャットでAIアシスタントに質問することも可能です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="235" src="https://tomosta.jp/wp-content/uploads/2025/04/image-2-1024x235.png" alt="" class="wp-image-26456" srcset="https://tomosta.jp/wp-content/uploads/2025/04/image-2-1024x235.png 1024w, https://tomosta.jp/wp-content/uploads/2025/04/image-2-300x69.png 300w, https://tomosta.jp/wp-content/uploads/2025/04/image-2-768x176.png 768w, https://tomosta.jp/wp-content/uploads/2025/04/image-2-1536x353.png 1536w, https://tomosta.jp/wp-content/uploads/2025/04/image-2.png 1716w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ソースコードを見てみたいオープンソースのプロジェクトなどがあれば、見てみると良いでしょう。</p>
+
+
+
+<p><a href="https://deepwiki.com/">DeepWiki</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2025/04/deepwiki/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>AIでコードを自動生成できる、StackBlitz+Bolt.newを紹介</title>
+		<link>https://tomosta.jp/2024/11/stackblitz_bolt/</link>
+					<comments>https://tomosta.jp/2024/11/stackblitz_bolt/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Mon, 18 Nov 2024 12:00:00 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[TypeScript]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=26353</guid>
+
+					<description><![CDATA[こんにちは、今日はオンラインエディター「StackBlitz」とそのAI機能「Bolt」について詳しくご紹介します！これらを使うことで、開発環境の構築やコードの作成が驚くほど簡単になります。特に、初心者からプロまで幅広い [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="AIでコードを自動生成できる、StackBlitz+Bolt.newを紹介" width="500" height="281" src="https://www.youtube.com/embed/U3RT6kbQ7jg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>《この記事は、AI（ChatGPT）が書いています》</p>
+
+
+
+<p>こんにちは、今日はオンラインエディター「<a href="https://stackblitz.com/">StackBlitz</a>」とそのAI機能「<a href="https://bolt.new/">Bolt</a>」について詳しくご紹介します！これらを使うことで、開発環境の構築やコードの作成が驚くほど簡単になります。特に、初心者からプロまで幅広いユーザーに役立つツールです。</p>
+
+
+
+<h2 class="wp-block-heading">StackBlitzとは？</h2>
+
+
+
+<p>StackBlitzは、Webブラウザ上で動作するオンラインエディターです。これまでも、Visual Studio Codeのオンライン版やCodePenなどのオンラインエディターが登場してきましたが、StackBlitzは以下の特徴で注目を集めています</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-2-1024x576.png" alt="" class="wp-image-26356" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-2-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-2-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-2-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-2-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-2.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li>機能の豊富さ：多くのテンプレートが用意されており、どんなプロジェクトでもすぐに始められる。</li>
+
+
+
+<li>プレビュー機能：リアルタイムで編集内容が反映され、作業効率が抜群。</li>
+
+
+
+<li>使いやすいUI：ファイル一覧、コードエディター、ターミナル、プレビュー画面が揃った直感的な操作感。</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">使い方の流れ</h2>
+
+
+
+<p>StackBlitz公式サイトにアクセスし、豊富なテンプレートからプロジェクトを選びます。ここでは、「Static」を選びましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-3-1024x576.png" alt="" class="wp-image-26357" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-3-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-3-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-3-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-3-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-3.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>プロジェクトを保存するには、GitHubアカウントなどでログインが必要です。無料で使えるので、ログインしておきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-4-1024x576.png" alt="" class="wp-image-26359" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-4-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-4-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-4-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-4-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-4.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>画面真ん中のエディタ画面で、内容を変更すると右側のプレビュー画面が即座に変化し、常に表示を確認しながら編集することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-5-1024x576.png" alt="" class="wp-image-26360" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-5-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-5-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-5-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-5-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-5.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>AstroやNext.js、Nuxtなど、フレームワークも標準でサポートしていて、Node.jsやnpmを使ったビルド作業もサポートしているため、これらのフレームワークを使った開発も簡単に行えます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-6-1024x576.png" alt="" class="wp-image-26361" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-6-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-6-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-6-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-6-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-6.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>完成したプロジェクトは、左上のボタンでダウンロードすることもできます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-7-1024x576.png" alt="" class="wp-image-26362" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-7-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-7-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-7-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-7-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-7.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>また、Gitの機能も内蔵しているため、GitHubに直接リポジトリを作成して、プッシュをすることもできます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-8-1024x576.png" alt="" class="wp-image-26364" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-8-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-8-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-8-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-8-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-8.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>こうして、本格的な開発エディタとして、フロントエンドの開発などに利用することができます。</p>
+
+
+
+<h2 class="wp-block-heading">Boltとは？</h2>
+
+
+
+<p>BoltはStackBlitzに搭載されたAIアシスタントで、以下のような強力な機能を提供します：</p>
+
+
+
+<ul class="wp-block-list">
+<li>コード生成：簡単な指示を入力するだけで、AIがプロジェクトを自動生成。</li>
+
+
+
+<li>日本語対応：英語だけでなく日本語での指示も可能。</li>
+
+
+
+<li>カスタマイズ可能：生成されたコードをベースに、自分で編集を加えられる。</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">実際の使い方</h3>
+
+
+
+<p>StackBlitzの上にある「bolt.new」のリンクをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-9-1024x576.png" alt="" class="wp-image-26365" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-9-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-9-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-9-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-9-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-9.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>チャット欄が表示されるので、作りたい画面の内容を入力します。日本語でも入力できます。</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>create blog site with astro from markdown file<br>（マークダウンファイルで更新できる、Astroのブログサイトを作ってください）</p>
+</blockquote>
+
+
+
+<p>すると、次々にコードが生成され、Markdownファイルを使ったブログサイトをAIで制作することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-10-1024x576.png" alt="" class="wp-image-26367" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-10-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-10-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-10-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-10-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-10.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>また、作ったプロジェクトをStackBlitzで開いて、続きの編集を行うこともできます。BoltとStackBlitzを行き来して、AI生成とコード入力を使い分けながら開発することができます。</p>
+
+
+
+<h2 class="wp-block-heading">Netlifyにデプロイしよう</h2>
+
+
+
+<p>Boltで作成したプロジェクトは、そのままNetlifyと連係して公開作業を行うことができます。右上の「Deploy」ボタンをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/11/image-11-1024x576.png" alt="" class="wp-image-26369" srcset="https://tomosta.jp/wp-content/uploads/2024/11/image-11-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/11/image-11-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/11/image-11-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/11/image-11-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/11/image-11.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Netlifyにログインすれば、そのままデプロイ作業が行われ、URLが発行されます。こうして、ネット上で実際に運用することができます。</p>
+
+
+
+<h2 class="wp-block-heading">StackBlitzとBoltの利便性</h2>
+
+
+
+<h3 class="wp-block-heading">軽量な開発環境</h3>
+
+
+
+<ol class="wp-block-list"></ol>
+
+
+
+<p>StackBlitzは、ブラウザ上で動作するため、ローカル環境のセットアップが不要です。特に、ちょっとしたアイデアを形にするのに最適です。</p>
+
+
+
+<h3 class="wp-block-heading">初心者にも優しい</h3>
+
+
+
+<ol start="2" class="wp-block-list"></ol>
+
+
+
+<p>Boltを使えば、プログラミングの知識が少ない方でも簡単にプロジェクトを作成可能。指示に応じて、必要なコードや設定を自動生成してくれるので、手間が大幅に省けます。</p>
+
+
+
+<h3 class="wp-block-heading">柔軟な拡張性</h3>
+
+
+
+<ol start="3" class="wp-block-list"></ol>
+
+
+
+<p>生成されたプロジェクトは、ローカル環境や他のエディターにエクスポートして、より高度なカスタマイズが可能です。</p>
+
+
+
+<h2 class="wp-block-heading">Proバージョンも利用可能</h2>
+
+
+
+<p>StackBlitzは無料で基本的な機能を利用できますが、月額20ドル（約3,000円）のプロ版にアップグレードするとさらに多くの機能を利用できます。</p>
+
+
+
+<h2 class="wp-block-heading">まとめ</h2>
+
+
+
+<p>StackBlitzとBoltは、開発環境の新しい可能性を広げる素晴らしいツールです。特に、簡単なプロジェクトの作成やAIによるコード生成を試してみたい方にはおすすめです。</p>
+
+
+
+<p>まずは無料版から使い始めてみてはいかがでしょうか？また、Boltを活用して効率的にプロジェクトを進めてみましょう！</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://stackblitz.com/">StackBlitz</a></li>
+
+
+
+<li><a href="https://bolt.new/">Bolt</a></li>
+</ul>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2024/11/stackblitz_bolt/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Figma UI3でテキストツールの使い方を詳しく知ろう</title>
+		<link>https://tomosta.jp/2024/09/figma-ui3%e3%81%a7%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%82%92%e8%a9%b3%e3%81%97%e3%81%8f%e7%9f%a5%e3%82%8d%e3%81%86/</link>
+					<comments>https://tomosta.jp/2024/09/figma-ui3%e3%81%a7%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%82%92%e8%a9%b3%e3%81%97%e3%81%8f%e7%9f%a5%e3%82%8d%e3%81%86/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Fri, 27 Sep 2024 23:36:00 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=26237</guid>
+
+					<description><![CDATA[FigmaでWebサイトの設計やデザインを行うとき、「テキスト」の出番は非常に多くなります。そこで、ここでは図のようなシンプルなテキストサイトを設計しながら、テキストツールの詳しい使い方を紹介していきましょう。 なお、F [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Figma: テキストツールのいろいろな使い方 - Figma入門 002" width="500" height="281" src="https://www.youtube.com/embed/wrX8maLmZo0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>FigmaでWebサイトの設計やデザインを行うとき、「テキスト」の出番は非常に多くなります。そこで、ここでは図のようなシンプルなテキストサイトを設計しながら、テキストツールの詳しい使い方を紹介していきましょう。</p>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-90-1024x576.png" alt="" class="wp-image-26238" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-90-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-90-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-90-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-90-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-90.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なお、Figmaの基本的な使い方は前回の記事をご参照ください。</p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="zcTbz2WOdi"><a href="https://tomosta.jp/2024/09/figma-ui3-make-button/">Figma UI3でボタンを作ろう</a></blockquote><iframe loading="lazy" class="wp-embedded-content" sandbox="allow-scripts" security="restricted"  title="&#8220;Figma UI3でボタンを作ろう&#8221; &#8212; ともすた" src="https://tomosta.jp/2024/09/figma-ui3-make-button/embed/#?secret=flzYhc1XOn#?secret=zcTbz2WOdi" data-secret="zcTbz2WOdi" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">大見出しを立ててタイポグラフィーを調整しよう</h2>
+
+
+
+<p>それでは、新しいフレームを作成して作業を始めていきましょう。ツールバーの「フレーム」をクリックし、ここでは「スマホ」の「iPhone 14 &amp; 15 Pro」を選びました。スマホサイズであればどれでも問題ありません。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-91-1024x576.png" alt="" class="wp-image-26242" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-91-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-91-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-91-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-91-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-91.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>まずは、大見出しを立てましょう。ツールバーから「テキスト」を選択します。なお、キーボードショートカットの「T」が割り当てられているので、これを押すだけでも切り替えられます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-92-1024x576.png" alt="" class="wp-image-26243" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-92-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-92-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-92-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-92-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-92.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>フレーム内の、適当な場所をクリックします。テキストカーソルに変わったら「利用規約」と入力しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-93-1024x576.png" alt="" class="wp-image-26245" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-93-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-93-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-93-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-93-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-93.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>フレームの白紙の部分をクリックして、入力を終了します。自動的に選択状態になるので、このまま設定を変更しましょう。右側の「デザイン」パネルが「テキスト」になっていることを確認して、真ん中の「タイポグラフィー」でさまざまな調整を行います。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-94-1024x576.png" alt="" class="wp-image-26247" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-94-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-94-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-94-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-94-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-94.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ここでは、次のように調整しましょう。</p>
+
+
+
+<p>フォント： Noto Sans JP<br>太さ： Bold<br>サイズ： 24</p>
+
+
+
+<p>また、少し文字間にゆとりを持たせたいので、右下の「文字間隔」という設定項目を「20%」に設定しましょう。入力する場合は「20」だけ入力すれば良いでしょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-95-1024x576.png" alt="" class="wp-image-26250" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-95-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-95-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-95-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-95-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-95.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、文字同士の間隔が空いて、ゆったりとした配置になります。</p>
+
+
+
+<p>これで準備完了です。ページの真ん中に配置しましょう。ガイドラインを見ながら配置すると良いでしょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-96-1024x576.png" alt="" class="wp-image-26251" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-96-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-96-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-96-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-96-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-96.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>また、縦位置は「30」とします。「位置」の「Y」を変更しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-97-1024x576.png" alt="" class="wp-image-26252" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-97-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-97-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-97-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-97-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-97.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">中央揃えにしよう</h3>
+
+
+
+<p>さて、これで正しく配置できたように思えますが、例えばここで見出しが変わってしまったとしましょう。「サービス利用規約」などと打ち替えてみます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-98-1024x576.png" alt="" class="wp-image-26254" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-98-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-98-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-98-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-98-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-98.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、中央からずれてしまいました。これは、テキスト自体の配置が「左揃え」になっているため、左端を基準に伸びていってしまうのです。そこでここでは、タイポグラフィーの「中央揃え」ボタンをクリックして、テキスト自体を中央揃えにしておきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-99-1024x576.png" alt="" class="wp-image-26256" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-99-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-99-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-99-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-99-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-99.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これで、文字数が増減しても中央を基準に伸び縮みするようになります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-100-1024x576.png" alt="" class="wp-image-26257" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-100-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-100-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-100-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-100-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-100.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<h2 class="wp-block-heading">英文を配置しよう</h2>
+
+
+
+<p>続いて、タイトルの下に英文を配置してみましょう。同じく、テキストツールで適当な場所をクリックしたら、「Terms of service」と入力します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-101-1024x576.png" alt="" class="wp-image-26260" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-101-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-101-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-101-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-101-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-101.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なおこの時、見本がすべて大文字だからと言って、すべて大文字では入力しないようにしましょう。後で合わせます。また、「中央揃え」を選んでおきましょう。</p>
+
+
+
+<p>そして、デザインパネルのタイポグラフィーで次のように設定します。</p>
+
+
+
+<p>フォント： Helvetica Neue<br>太さ： Regular<br>大きさ： 12<br>文字間隔： 0%</p>
+
+
+
+<p>とします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-102-1024x576.png" alt="" class="wp-image-26261" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-102-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-102-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-102-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-102-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-102.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そしたら、すべて大文字に変えましょう。右下の「タイプの設定」ボタンをクリックしましょう。より、詳細な設定画面が表示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-103-1024x576.png" alt="" class="wp-image-26263" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-103-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-103-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-103-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-103-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-103.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ここでは、「大/小文字」という設定項目で、英文をすべて大文字で表現してみましょう。「大文字にする」ボタンをクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-104-1024x576.png" alt="" class="wp-image-26264" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-104-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-104-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-104-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-104-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-104.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">間隔を設定しよう</h3>
+
+
+
+<p>ここで入力した英文ですが、日本語の見出しと5pxの余白で配置したいと思います。しかし、マウス操作で行うのは大変ですし、デザインパネルで行うにも計算が面倒です。そこでここではキーボード操作を使って、位置を調整しましょう。</p>
+
+
+
+<p>まずは、大体の位置に移動します。ガイドラインに沿って左右は中央に、上下は一度ぴったりくっつけてしまっても良いでしょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-105-1024x576.png" alt="" class="wp-image-26266" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-105-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-105-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-105-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-105-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-105.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そしたら、移動ツールで選択した状態でキーボードの下矢印キーを押します。すると、1pxだけ下にずれます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-106-1024x576.png" alt="" class="wp-image-26267" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-106-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-106-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-106-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-106-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-106.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>このまま、5回押せば5pxの移動が簡単に行えます。</p>
+
+
+
+<p>なお、現在の間隔は「Option(Alt)」キーを押すと分かります。英文が選択された状態で、Option(Alt）キーを押し、そのままカーソルを日本語見出しに合わせてみましょう。すると、間隔が数字で表示されます。これを頼りに、5px余白を空けましょう。これで見出しの完成です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-107-1024x576.png" alt="" class="wp-image-26269" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-107-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-107-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-107-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-107-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-107.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">小見出しを設定しよう</h2>
+
+
+
+<p>続いて、小見出しを立てましょう。テキストツールをクリックして適当な場所をクリックしたら、「はじめに」と入力します。タイポグラフィーの設定は、それぞれ以下に設定しましょう。</p>
+
+
+
+<p>フォント： Noto Sans JP<br>太さ： Bold<br>大きさ： 16<br>位置揃え： 左揃えに</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-108-1024x576.png" alt="" class="wp-image-26271" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-108-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-108-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-108-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-108-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-108.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">長い見出しを入れてみよう</h3>
+
+
+
+<p>さて、ここで見出しの内容を変更して「はじめに」を何度もコピーペーストするなどして、長い見出しを入れてみましょう。フレームからはみ出て表示されてしまいます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-109-1024x576.png" alt="" class="wp-image-26272" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-109-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-109-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-109-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-109-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-109.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これは、テキストの「レイアウト」が「幅の自動調整」に設定されているため。テキストツールは、「幅の自動調整」「高さの自動調整」「固定サイズ」という3種類から選ぶことができます。標準は「幅の自動調整」になっているため、入力された文字数に従って横に伸びてしまうのです。</p>
+
+
+
+<p>そこでここでは、デザインパネルの「レイアウト」で「高さの自動調整」に変更してみましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-110-1024x576.png" alt="" class="wp-image-26274" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-110-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-110-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-110-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-110-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-110.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、それ以降入力した文字列は、自動改行されて下に表示されるようになります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-111-1024x576.png" alt="" class="wp-image-26275" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-111-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-111-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-111-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-111-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-111.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">先にレイアウトを変更しよう</h3>
+
+
+
+<p>このように、文字数が決まっていない要素を挿入する場合は、あらかじめ「高さの自動調整」に変更しておくと良いでしょう。この時、簡単に変更する方法があります。</p>
+
+
+
+<p>テキストツールでフレーム内をクリックすると、まずは「幅の自動調整」に設定されます。ここで、まずは数文字入力しましょう。そしたら、移動ツールで作られたテキストエリアをクリックし、長方形などと同じように大きさ（幅）を調整します。すると、自動的に「高さの自動調整」に変更されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-112-1024x576.png" alt="" class="wp-image-26276" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-112-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-112-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-112-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-112-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-112.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なおこの時、縦も変更してしまうと「固定サイズ」になってしまいます。</p>
+
+
+
+<h3 class="wp-block-heading">ルール（ルーラー）を表示しよう</h3>
+
+
+
+<p>さて、ここで見出しの位置や幅を設定したいのですが、画面の両端に少し余白を取りたいとします。これを、数字を見ながら調整するのは大変なので、フレームにガイド線を引くと良いでしょう。</p>
+
+
+
+<p>フレームをクリックしたら、ツールバーの一番右端「アクション」ボタンをクリックしましょう。「共通設定」に「ルールの表示」メニューがあるので、これをクリックします。すると、画面の左側と上側にメモリ（ルーラー）が表示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-113-1024x576.png" alt="" class="wp-image-26278" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-113-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-113-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-113-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-113-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-113.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">ガイドを引こう</h3>
+
+
+
+<p>そしたら、右端のルーラーにカーソルを合わせて、そのまま右にドラッグします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="848" height="477" src="https://tomosta.jp/wp-content/uploads/2024/09/image-114-edited.png" alt="" class="wp-image-26280" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-114-edited.png 848w, https://tomosta.jp/wp-content/uploads/2024/09/image-114-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-114-edited-768x432.png 768w" sizes="auto, (max-width: 848px) 100vw, 848px" /></figure>
+
+
+
+<p>すると、赤いガイド線が付いてきます。これを、フレームの左端まで移動すると、上部の数字が「0」になります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-115-1024x576.png" alt="" class="wp-image-26282" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-115-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-115-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-115-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-115-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-115.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>もしこの時、0にならない場合はフレームが正しく選択されていないので、再度選択してからガイドを引き直しましょう。間違えたガイドは右クリックで、削除することができます。</p>
+
+
+
+<p>そのままガイドを移動して、「20」になったら離します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="803" height="452" src="https://tomosta.jp/wp-content/uploads/2024/09/image-116-edited.png" alt="" class="wp-image-26285" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-116-edited.png 803w, https://tomosta.jp/wp-content/uploads/2024/09/image-116-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-116-edited-768x432.png 768w" sizes="auto, (max-width: 803px) 100vw, 803px" /></figure>
+
+
+
+<p>これで、左端から20pxの余白を取ることができました。今挿入した見出しをドラッグすると、ガイドのところで吸着するので、そのまま離しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-117-1024x576.png" alt="" class="wp-image-26287" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-117-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-117-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-117-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-117-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-117.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>続いて、右端にも余白を設定します。同じ操作でガイドをもう一本引いたら、フレームの右端に移動します。「393」など、フレームの幅に合わせて数字が表示されるので、そこから20を引いた数（ここでは、373）に合わせてガイドを引きましょう。右端にも余白が生まれました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-118-1024x576.png" alt="" class="wp-image-26289" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-118-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-118-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-118-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-118-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-118.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これで、画面の両端に余白が生まれたので、小見出しの幅をガイドに沿って決めましょう。これで、何文字の見出しが入ってもきれいにレイアウトされるようになります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-119-1024x576.png" alt="" class="wp-image-26290" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-119-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-119-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-119-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-119-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-119.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>上下位置は、上のタイトルと「40px」離して配置しましょう。この時、「位置」の「Y」には計算式を入れることができます。上のタイトルとぴったりくっつけたら、その値に「+40」と入力することで、40pxの余白を作ることができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1000" height="563" src="https://tomosta.jp/wp-content/uploads/2024/09/image-120-edited.png" alt="" class="wp-image-26292" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-120-edited.png 1000w, https://tomosta.jp/wp-content/uploads/2024/09/image-120-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-120-edited-768x432.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<h2 class="wp-block-heading">本文をダミーデータで挿入しよう</h2>
+
+
+
+<p>続いて、本文を挿入します。再度テキストツールを選んだら、今回はドラッグで挿入します。すると、あらかじめ「固定サイズ」で挿入することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-121-1024x576.png" alt="" class="wp-image-26293" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-121-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-121-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-121-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-121-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-121.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そしたらここに、本文を挿入しましょう。本文は、入力したり、何かからコピーペーストをしても構いませんが、例えばまだ原稿が決まっていないといった場合、ひとまず「ダミーデータ」を使って、何かの文字が入った様子を元にデザインすることがよくあります。</p>
+
+
+
+<p>Figmaでは「プラグイン」という機能を使うことで、他の方が作成した機能を使うことができ、ダミーデータを挿入する拡張機能もあります。ここでは、例としてKiteさんが開発した「<a href="https://www.figma.com/community/plugin/884977600755027488/japanese-dummy-text" target="_blank" rel="noreferrer noopener">Japanese Dummy Text</a>」を利用してみましょう。</p>
+
+
+
+<h3 class="wp-block-heading">拡張機能を利用しよう</h3>
+
+
+
+<p>ツールバーの右下の「アクション」ボタンをクリックし、「プラグインとウィジェット」をクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1146" height="645" src="https://tomosta.jp/wp-content/uploads/2024/09/image-122-edited.png" alt="" class="wp-image-26297" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-122-edited.png 1146w, https://tomosta.jp/wp-content/uploads/2024/09/image-122-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-122-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-122-edited-768x432.png 768w" sizes="auto, (max-width: 1146px) 100vw, 1146px" /></figure>
+
+
+
+<p>そして、上部の検索窓に「dummy」などと入力すると、「Japanese Dummy Text」が見つかります。クリックして、「実行」ボタンをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1150" height="647" src="https://tomosta.jp/wp-content/uploads/2024/09/image-123-edited.png" alt="" class="wp-image-26299" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-123-edited.png 1150w, https://tomosta.jp/wp-content/uploads/2024/09/image-123-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-123-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-123-edited-768x432.png 768w" sizes="auto, (max-width: 1150px) 100vw, 1150px" /></figure>
+
+
+
+<p>図のようなウィンドウが表示されるので、先ほど作成したテキストエリアをクリックし、下の「自動生成」ボタンをクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-124-1024x576.png" alt="" class="wp-image-26300" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-124-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-124-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-124-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-124-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-124.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、テキストエリアいっぱいにダミーのテキストが挿入されます。意味が分からない文章ですが、ここでは日本語の字の大きさや太さ、表示の様子さえ分かれば良いので問題ありません。逆に、実際の原稿と差し替えるときに、間違えなくて済むようになります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-125-1024x576.png" alt="" class="wp-image-26301" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-125-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-125-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-125-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-125-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-125.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そしたら、設定を整えましょう。ここでは、タイポグラフィーを次のように設定します。</p>
+
+
+
+<p>フォント： Noto Sans JP<br>太さ： Regular<br>大きさ： 16</p>
+
+
+
+<p>またここでは、行間に少しゆとりを持たせるため「行間」を変更しましょう。最初は「自動」と表示されていますが、クリックすると数字が薄く表示されます。これが現在の設定になるので、これを参考に少し増やしましょう。ここでは、「25」と設定します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-126-1024x576.png" alt="" class="wp-image-26302" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-126-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-126-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-126-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-126-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-126.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">箇条書きを作ろう</h2>
+
+
+
+<p>続いて、本文として作成したテキストエリアをコピーしましょう。コピーは、エリアをクリックして「Cmd(Ctrl)+C」でコピーし、「Cmd(Ctrl)+V」で貼り付けることができます。この時、まったく同じ場所に張り付いてしまい、一見すると分かりにくいので気をつけましょう。ドラッグすれば、二重になっている事が分かります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-127-1024x576.png" alt="" class="wp-image-26304" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-127-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-127-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-127-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-127-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-127.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>また、「Cmd(Ctrl)+D」を押すと、これを一度に行うことができます。さらに例えば、コピー元のパーツを「Option(Alt)」キーを押しながらドラッグすることでも複製できます。真下にコピーしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-128-1024x576.png" alt="" class="wp-image-26306" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-128-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-128-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-128-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-128-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-128.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そしたらここでは、「箇条書き」を作ってみましょう。ダブルクリックすると、すべての文字列が選択できるので、次のように入力します。</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<ol class="wp-block-list">
+<li>住所</li>
+</ol>
+</blockquote>
+
+
+
+<p>この時、「1.」の後に半角空白を入れましょう。すると、少しだけ右にずれることが分かります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-129-1024x576.png" alt="" class="wp-image-26309" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-129-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-129-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-129-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-129-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-129.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そのまま、改行してみましょう。次の行には「2. 」と自動的に挿入されます。これは、「箇条書きモード」になったことを表します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-130-1024x576.png" alt="" class="wp-image-26311" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-130-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-130-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-130-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-130-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-130.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すべて入力が終わったら、2回改行をするか、「Esc」キーを押します。すると、箇条書きモードが解除されます。こうして、簡単に箇条書きを作ることができます。</p>
+
+
+
+<h3 class="wp-block-heading">箇条書きを調整しよう</h3>
+
+
+
+<p>箇条書きの細かい調整は、タイポグラフィーの「タイプの設定」をクリックします。「リストスタイル」という所で、数字あり、行頭文字などに切り替えることができ、またリスト間隔などもここで調整ができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-131-1024x576.png" alt="" class="wp-image-26314" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-131-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-131-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-131-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-131-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-131.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ここでは、「リスト間隔」を「2」に設定しておきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-132-1024x576.png" alt="" class="wp-image-26315" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-132-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-132-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-132-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-132-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-132.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">箇条書きを解除しよう</h3>
+
+
+
+<p>ここで、小見出しにも番号を振りたいとしましょう。先の見出しの先頭に「1. 」と追加してみましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-133-1024x576.png" alt="" class="wp-image-26317" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-133-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-133-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-133-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-133-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-133.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、全体が右にずれてしまいました。先の通り、箇条書きモードになると、行頭に少し余白が生まれます。ただ、この見出しの場合は箇条書きにしたいわけではなく、番号を振りたいだけでした。</p>
+
+
+
+<p>そこで、このような場合では「Cmd(Ctrl)+Z」を押しましょう。元に戻すことができます。こうして、箇条書きにするかどうかを制御することができます。</p>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<h2 class="wp-block-heading">項目を追加しよう</h2>
+
+
+
+<p>もうひとつ項目を追加しておきましょう。ここでは、今作成した内容をコピーします。</p>
+
+
+
+<p>見出しと本文、箇条書きをすべて選択したら、「Option(Alt）」キーを押しながら、ドラッグしてみましょう。これでも複製ができます。そのまま、下にずらして前の項目と40px離して配置します。ガイドが表示されるので、これに沿っておくと良いでしょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-134-1024x576.png" alt="" class="wp-image-26319" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-134-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-134-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-134-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-134-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-134.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">アンダーラインを引こう</h2>
+
+
+
+<p>最後に、図のようなリンク要素を配置します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="714" height="401" src="https://tomosta.jp/wp-content/uploads/2024/09/image-135-edited.png" alt="" class="wp-image-26321" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-135-edited.png 714w, https://tomosta.jp/wp-content/uploads/2024/09/image-135-edited-300x168.png 300w" sizes="auto, (max-width: 714px) 100vw, 714px" /></figure>
+
+
+
+<p>テキストをクリックしたら、適当な場所をクリックし、「トップページへ戻る」と入力します。</p>
+
+
+
+<p>デザインパネルで「塗り」の色を青（6361FF）などに設定し、またタイポグラフィーの「タイプの設定」ボタンをクリックして、「装飾」のアンダーラインボタンをクリックします。これで、アンダーラインの引かれたテキストが作れました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-136-1024x576.png" alt="" class="wp-image-26322" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-136-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-136-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-136-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-136-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-136.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>後は、ページの中央、そして一番下のコンテンツから40px離したところに設定すれば完成です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-137-1024x576.png" alt="" class="wp-image-26324" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-137-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-137-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-137-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-137-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-137.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>こうして、テキストベースのページデザインを作成することができます。</p>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2024/09/figma-ui3%e3%81%a7%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%82%92%e8%a9%b3%e3%81%97%e3%81%8f%e7%9f%a5%e3%82%8d%e3%81%86/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Figma UI3のシェイプを使ってボタンを作ろう</title>
+		<link>https://tomosta.jp/2024/09/figma-ui3-make-button/</link>
+					<comments>https://tomosta.jp/2024/09/figma-ui3-make-button/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Mon, 23 Sep 2024 03:30:09 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<category><![CDATA[Figma]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=26082</guid>
+
+					<description><![CDATA[デザインツール、設計ツールとして人気のFigmaが、2024年9月に操作画面（UI）を大幅にアップデートして、UI3として順次展開され始めました。 ここでは、そんなUI3を使った基本的な操作を学ぶために、ボタンのデザイン [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Figmaのシェイプツールを使ってボタンデザインを作ろう【UI3対応】" width="500" height="281" src="https://www.youtube.com/embed/_chG_2Mvy6U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>デザインツール、設計ツールとして人気のFigmaが、2024年9月に操作画面（UI）を大幅にアップデートして、UI3として順次展開され始めました。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://help.figma.com/hc/ja/articles/23954856027159-Figma%E3%81%AE%E6%96%B0UI-UI3%E3%81%AE%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%83%88">Figmaの新UI: UI3のナビゲート</a></li>
+</ul>
+
+
+
+<p>ここでは、そんなUI3を使った基本的な操作を学ぶために、ボタンのデザインを作る手順を紹介しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-18-1024x576.png" alt="" class="wp-image-26084" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-18-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-18-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-18-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-18-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-18.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なお、既存のFigmaユーザーの場合は新UIが展開されるまでに時間がかかる場合があるため、すぐに試してみたい場合は新しくアカウントを取得して、試してみると良いでしょう。</p>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<h2 class="wp-block-heading">フレームを作ろう</h2>
+
+
+
+<p>Figmaでは、デザインするものに合わせて画面サイズや用紙サイズの「フレーム」を準備してデザインを作成していきます。画面下のツールバーから「フレーム」をクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="696" height="391" src="https://tomosta.jp/wp-content/uploads/2024/09/image-19-edited.png" alt="" class="wp-image-26185" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-19-edited.png 696w, https://tomosta.jp/wp-content/uploads/2024/09/image-19-edited-300x169.png 300w" sizes="auto, (max-width: 696px) 100vw, 696px" /></figure>
+
+
+
+<p>右端のパネルに、各画面サイズや用紙サイズのリストが表示されるので、ここでは例えば「Macbook Pro 16」などを選びましょう。キャンパスエリアに、白いエリアが現れます。ここにデザインを作成していきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-20-1024x576.png" alt="" class="wp-image-26086" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-20-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-20-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-20-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-20-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-20.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">長方形でボタンの土台を描こう</h2>
+
+
+
+<p>それでは、デザインを作成していきましょう。まずは、ボタンの土台を作ります。これには「長方形」ツールを利用しましょう。画面下の「長方形」ボタンをクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="726" height="408" src="https://tomosta.jp/wp-content/uploads/2024/09/image-21-edited.png" alt="" class="wp-image-26186" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-21-edited.png 726w, https://tomosta.jp/wp-content/uploads/2024/09/image-21-edited-300x169.png 300w" sizes="auto, (max-width: 726px) 100vw, 726px" /></figure>
+
+
+
+<p>なお、もしボタンが長方形以外のものになっている場合は、その右の「シェイプツール」ボタンをクリックすると、各ツールに切り替えることができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="813" height="457" src="https://tomosta.jp/wp-content/uploads/2024/09/image-22-edited.png" alt="" class="wp-image-26187" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-22-edited.png 813w, https://tomosta.jp/wp-content/uploads/2024/09/image-22-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-22-edited-768x432.png 768w" sizes="auto, (max-width: 813px) 100vw, 813px" /></figure>
+
+
+
+<p>長方形を選ぶと、マウスカーソルが「+」のマークに変わるので、これでフレーム内で好きな大きさにドラッグします。実際の大きさは後で調整するので、まずは大体の大きさで問題ありません。Figmaは「ベクターツール」と呼ばれる描画ツールなため、描いた図形を後から何度でも変更できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-23-1024x576.png" alt="" class="wp-image-26091" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-23-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-23-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-23-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-23-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-23.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">大きさを変更しよう</h3>
+
+
+
+<p>それでは、今描いた長方形の大きさを変更して、実際の大きさに合わせましょう。描かれた長方形は周りに青い枠が表示されます。この枠にカーソルを重ねると、カーソルの形が変化します。また、四隅の正方形（ハンドルといいます）では、カーソルが斜めの矢印に変わります。</p>
+
+
+
+<p>この辺やハンドル部分をドラッグすると、図形の大きさを変更することができます。辺の場合は縦または横が、ハンドルの場合は縦横を同時に調整できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-24-1024x576.png" alt="" class="wp-image-26093" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-24-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-24-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-24-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-24-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-24.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>この時、長方形の下にその時の大きさが「ピクセル」という単位で表示されるので、これを見ながら調整することができます。ただし、マウス操作で大きさを調整するのは、細かな調整がしにくいので、ここではプロパティを変更して調整してみましょう。</p>
+
+
+
+<h3 class="wp-block-heading">デザインパネルを利用しよう</h3>
+
+
+
+<p>長方形が選ばれた状態になっている場合、画面右側のパネルが「デザインパネル」と呼ばれるパネルとなり、今選んでいる長方形の各種情報が表示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="713" height="401" src="https://tomosta.jp/wp-content/uploads/2024/09/image-25-edited.png" alt="" class="wp-image-26188" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-25-edited.png 713w, https://tomosta.jp/wp-content/uploads/2024/09/image-25-edited-300x169.png 300w" sizes="auto, (max-width: 713px) 100vw, 713px" /></figure>
+
+
+
+<p>なおこの時、もし長方形に青い枠がない状態、つまり選択状態ではなくなってしまっている場合は、ツールバー左端の「移動」ツールを使って、長方形をクリックしましょう。選択状態になります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-26-1024x576.png" alt="" class="wp-image-26096" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-26-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-26-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-26-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-26-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-26.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>デザインパネルでは、例えば「位置」というプロパティは長方形の位置を変更すると、その時の値が自動的に反映されます。また逆に、このエリアに数字を直接入力すると、位置を変更することができるなど、両者はリンクをしています。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-27-1024x576.png" alt="" class="wp-image-26097" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-27-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-27-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-27-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-27-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-27.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ここでは、大きさを変更するため「レイアウト」の「W（幅）」と「H（高さ）」の値を調整しましょう。それぞれ「175」と「44」と入力します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1156" height="650" src="https://tomosta.jp/wp-content/uploads/2024/09/image-28-edited.png" alt="" class="wp-image-26189" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-28-edited.png 1156w, https://tomosta.jp/wp-content/uploads/2024/09/image-28-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-28-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-28-edited-768x432.png 768w" sizes="auto, (max-width: 1156px) 100vw, 1156px" /></figure>
+
+
+
+<h2 class="wp-block-heading">塗りの色を変更しよう</h2>
+
+
+
+<p>続けて、ボタンの色を変更しましょう。色の変更には「塗り」という設定項目を使います。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-30-1024x576.png" alt="" class="wp-image-26100" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-30-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-30-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-30-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-30-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-30.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>現状「D9D9D9」という値が挿入されていますが、これは図のようなグレーの色を表す「カラーコード」というコード番号です。ここでは詳細は省略するので、興味があれば「カラーコード」などのキーワードで学んでみましょう。</p>
+
+
+
+<p>左側のチップをクリックすると、カラーパレットが表示されて好きな色を作成して、適用することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-31-1024x576.png" alt="" class="wp-image-26101" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-31-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-31-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-31-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-31-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-31.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">グラデーションを設定しよう</h3>
+
+
+
+<p>グラデーションを設定することもできます。カラーパレットの上部の2番目の「グラデーション」をクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1176" height="661" src="https://tomosta.jp/wp-content/uploads/2024/09/image-32-edited.png" alt="" class="wp-image-26190" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-32-edited.png 1176w, https://tomosta.jp/wp-content/uploads/2024/09/image-32-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-32-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-32-edited-768x432.png 768w" sizes="auto, (max-width: 1176px) 100vw, 1176px" /></figure>
+
+
+
+<p>スタート位置とゴール位置の色がそれぞれ設定できるようになり、その間のグラデーションが自動的に塗られるようになります。</p>
+
+
+
+<p>また、色の変化する位置（ストップ位置）は、カラーバーの途中をクリックすると増やすことができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1153" height="648" src="https://tomosta.jp/wp-content/uploads/2024/09/image-33-edited.png" alt="" class="wp-image-26191" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-33-edited.png 1153w, https://tomosta.jp/wp-content/uploads/2024/09/image-33-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-33-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-33-edited-768x432.png 768w" sizes="auto, (max-width: 1153px) 100vw, 1153px" /></figure>
+
+
+
+<p>不要な場合は、右端の「-」ボタンをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1306" height="735" src="https://tomosta.jp/wp-content/uploads/2024/09/image-34-edited.png" alt="" class="wp-image-26192" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-34-edited.png 1306w, https://tomosta.jp/wp-content/uploads/2024/09/image-34-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-34-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-34-edited-768x432.png 768w" sizes="auto, (max-width: 1306px) 100vw, 1306px" /></figure>
+
+
+
+<p>ここでは、左端の色を「2F91BC」に、右端の色を「23A2A2」に設定しましょう。見本と同じようなグラデーションに設定できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1130" height="636" src="https://tomosta.jp/wp-content/uploads/2024/09/image-35-edited.png" alt="" class="wp-image-26193" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-35-edited.png 1130w, https://tomosta.jp/wp-content/uploads/2024/09/image-35-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-35-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-35-edited-768x432.png 768w" sizes="auto, (max-width: 1130px) 100vw, 1130px" /></figure>
+
+
+
+<h3 class="wp-block-heading">グラデーションの位置を調整しよう</h3>
+
+
+
+<p>グラデーションを設定中は、長方形に直線が描かれます。両端には丸い「ハンドル」があるので、これをドラッグすると、グラデーションの位置や方向などを調整することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-36-1024x576.png" alt="" class="wp-image-26107" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-36-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-36-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-36-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-36-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-36.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ここでは、互いに少し内側に移動してグラデーションの開始や終了の位置を変更しておきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1182" height="665" src="https://tomosta.jp/wp-content/uploads/2024/09/image-37-edited.png" alt="" class="wp-image-26194" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-37-edited.png 1182w, https://tomosta.jp/wp-content/uploads/2024/09/image-37-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-37-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-37-edited-768x432.png 768w" sizes="auto, (max-width: 1182px) 100vw, 1182px" /></figure>
+
+
+
+<p>なおこの時、マウス操作によって線が斜めになってしまう場合は、「Shift」キーを押しながら操作してみましょう。ある程度の所（45度まで）は回転しないようになるため、操作しやすくなります。</p>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<h2 class="wp-block-heading">枠線を引こう</h2>
+
+
+
+<p>続いて、ボタンの枠線を引きましょう。デザインパネルの「線」という所の右端にある「+」をクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1085" height="610" src="https://tomosta.jp/wp-content/uploads/2024/09/image-38-edited.png" alt="" class="wp-image-26195" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-38-edited.png 1085w, https://tomosta.jp/wp-content/uploads/2024/09/image-38-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-38-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-38-edited-768x432.png 768w" sizes="auto, (max-width: 1085px) 100vw, 1085px" /></figure>
+
+
+
+<p>すると、黒い線が周りに引かれるので、色を「2F91BC」に設定しましょう。見本と同じ色になります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="850" height="478" src="https://tomosta.jp/wp-content/uploads/2024/09/image-39-edited.png" alt="" class="wp-image-26196" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-39-edited.png 850w, https://tomosta.jp/wp-content/uploads/2024/09/image-39-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-39-edited-768x432.png 768w" sizes="auto, (max-width: 850px) 100vw, 850px" /></figure>
+
+
+
+<h3 class="wp-block-heading">線の位置</h3>
+
+
+
+<p>線の設定項目には「内側」「外側」「中央」という設定があります。これは、図形に対する枠線の位置を示しています。「内側」の場合、図形の大きさ自体は変わりませんが、枠線の分だけ中の図形の大きさが小さくなります。</p>
+
+
+
+<p>「外側」にすると、元の図形はそのままの大きさでその外側に線が引かれます。そのため、図形自体の大きさは一回り大きくなります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1342" height="755" src="https://tomosta.jp/wp-content/uploads/2024/09/image-40-edited.png" alt="" class="wp-image-26197" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-40-edited.png 1342w, https://tomosta.jp/wp-content/uploads/2024/09/image-40-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-40-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-40-edited-768x432.png 768w" sizes="auto, (max-width: 1342px) 100vw, 1342px" /></figure>
+
+
+
+<p>「中央」はその間で、半分だけ内側に、半分だけ外側に線が引かれます。</p>
+
+
+
+<h2 class="wp-block-heading">角丸を設定しよう</h2>
+
+
+
+<p>続いて、長方形の角を丸めてみましょう。これには、専用の「ハンドル」があります。ただしこのハンドル、図形の大きさが小さいとうまく表示されません。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-41-1024x576.png" alt="" class="wp-image-26115" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-41-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-41-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-41-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-41-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-41.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そこで、画面右上の「ズーム」を使って画面サイズを拡大してみましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="783" height="441" src="https://tomosta.jp/wp-content/uploads/2024/09/image-42-edited.png" alt="" class="wp-image-26198" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-42-edited.png 783w, https://tomosta.jp/wp-content/uploads/2024/09/image-42-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-42-edited-768x433.png 768w" sizes="auto, (max-width: 783px) 100vw, 783px" /></figure>
+
+
+
+<p>上の入力欄に「300」などと入力します。300%に拡大されました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1026" height="577" src="https://tomosta.jp/wp-content/uploads/2024/09/image-43-edited.png" alt="" class="wp-image-26199" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-43-edited.png 1026w, https://tomosta.jp/wp-content/uploads/2024/09/image-43-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-43-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-43-edited-768x432.png 768w" sizes="auto, (max-width: 1026px) 100vw, 1026px" /></figure>
+
+
+
+<p>こうして長方形を選択すると、図のように内側に丸いハンドルが表示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1206" height="678" src="https://tomosta.jp/wp-content/uploads/2024/09/image-44-edited.png" alt="" class="wp-image-26200" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-44-edited.png 1206w, https://tomosta.jp/wp-content/uploads/2024/09/image-44-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-44-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-44-edited-768x432.png 768w" sizes="auto, (max-width: 1206px) 100vw, 1206px" /></figure>
+
+
+
+<p>これをドラッグすることで、角の半径を変更することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-45-1024x576.png" alt="" class="wp-image-26122" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-45-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-45-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-45-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-45-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-45.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">個別の角を設定しよう</h3>
+
+
+
+<p>角丸は、個別に設定することもできますOption（またはAlt）キーを押しながら、ハンドルをドラッグしてみましょう。その角にだけ、角度が付きます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-46-1024x576.png" alt="" class="wp-image-26125" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-46-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-46-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-46-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-46-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-46.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>さらに続けて、各角を設定することでバラバラの角度にすることができます。この時、2つめ以降の設定の時はOption（Alt）キーは離した状態で行いましょう。ややこしいのですが、2つめ以降でOption（Alt）キーを押すと、今度は全体の角に戻ってしまうので注意しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-47-1024x576.png" alt="" class="wp-image-26127" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-47-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-47-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-47-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-47-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-47.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">プロパティで設定しよう</h3>
+
+
+
+<p>角の半径は、プロパティでも変更ができます。デザインパネルの「外見」の右側で、先の手順で個別の角を設定した場合は「混在」という設定項目になっていますが、右側の「個別の角」ボタンをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="925" height="520" src="https://tomosta.jp/wp-content/uploads/2024/09/image-48-edited.png" alt="" class="wp-image-26201" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-48-edited.png 925w, https://tomosta.jp/wp-content/uploads/2024/09/image-48-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-48-edited-768x432.png 768w" sizes="auto, (max-width: 925px) 100vw, 925px" /></figure>
+
+
+
+<p>小さなウィンドウが開いて、各角の設定を変更できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="807" height="454" src="https://tomosta.jp/wp-content/uploads/2024/09/image-49-edited.png" alt="" class="wp-image-26202" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-49-edited.png 807w, https://tomosta.jp/wp-content/uploads/2024/09/image-49-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-49-edited-768x432.png 768w" sizes="auto, (max-width: 807px) 100vw, 807px" /></figure>
+
+
+
+<p>なお、「混在」を別の数字に置き換える事もできます。ここでは、「3」と入力して各角3の半径に設定しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="668" height="376" src="https://tomosta.jp/wp-content/uploads/2024/09/image-50-edited.png" alt="" class="wp-image-26203" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-50-edited.png 668w, https://tomosta.jp/wp-content/uploads/2024/09/image-50-edited-300x169.png 300w" sizes="auto, (max-width: 668px) 100vw, 668px" /></figure>
+
+
+
+<h2 class="wp-block-heading">ドロップシャドウを設定しよう</h2>
+
+
+
+<p>最後に、ボタンに薄いドロップシャドウを設定しましょう。</p>
+
+
+
+<p>デザインパネルの「エフェクト」で、右側の「+」をクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1182" height="665" src="https://tomosta.jp/wp-content/uploads/2024/09/image-51-edited-1.png" alt="" class="wp-image-26137" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-51-edited-1.png 1182w, https://tomosta.jp/wp-content/uploads/2024/09/image-51-edited-1-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-51-edited-1-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-51-edited-1-768x432.png 768w" sizes="auto, (max-width: 1182px) 100vw, 1182px" /></figure>
+
+
+
+<p>「インナーシャドウ」「ドロップシャドウ」「レイヤーブラー」と「背景のぼかし」を設定できるので、ここでは「ドロップシャドウ」を選びましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1078" height="606" src="https://tomosta.jp/wp-content/uploads/2024/09/image-54-edited.png" alt="" class="wp-image-26204" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-54-edited.png 1078w, https://tomosta.jp/wp-content/uploads/2024/09/image-54-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-54-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-54-edited-768x432.png 768w" sizes="auto, (max-width: 1078px) 100vw, 1078px" /></figure>
+
+
+
+<p>左の「エフェクトの設定」というチップをクリックすると、次の設定項目が表示されます。それぞれ、次のように設定しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1001" height="563" src="https://tomosta.jp/wp-content/uploads/2024/09/image-55-edited.png" alt="" class="wp-image-26205" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-55-edited.png 1001w, https://tomosta.jp/wp-content/uploads/2024/09/image-55-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-55-edited-768x432.png 768w" sizes="auto, (max-width: 1001px) 100vw, 1001px" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li>位置X： 0</li>
+
+
+
+<li>位置Y： 0</li>
+
+
+
+<li>ぼかし範囲： 10（ぼかしのぼんやり感）</li>
+
+
+
+<li>広がり： 0（ぼかしの幅・高さ）</li>
+
+
+
+<li>色： 000000、20%</li>
+</ul>
+
+
+
+<p>図のようなドロップシャドウが設定されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-56-1024x576.png" alt="" class="wp-image-26142" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-56-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-56-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-56-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-56-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-56.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<h2 class="wp-block-heading">テキストラベルを設定しよう</h2>
+
+
+
+<p>続いて、ボタンの表面に記述するテキストラベルを作成しましょう。これには、ツールバーの「テキスト」ツールを利用します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1019" height="573" src="https://tomosta.jp/wp-content/uploads/2024/09/image-57-edited.png" alt="" class="wp-image-26206" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-57-edited.png 1019w, https://tomosta.jp/wp-content/uploads/2024/09/image-57-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-57-edited-768x432.png 768w" sizes="auto, (max-width: 1019px) 100vw, 1019px" /></figure>
+
+
+
+<p>ボタンの表面の適当な位置をクリックしましょう。白いテキストカーソルが表示されます。位置は後で調整します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="756" height="425" src="https://tomosta.jp/wp-content/uploads/2024/09/image-58-edited.png" alt="" class="wp-image-26207" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-58-edited.png 756w, https://tomosta.jp/wp-content/uploads/2024/09/image-58-edited-300x169.png 300w" sizes="auto, (max-width: 756px) 100vw, 756px" /></figure>
+
+
+
+<p>なおこの時、背景が明るい場所はクリックしないようにしましょう。Figmaはテキストツールを利用するとき、その時の背景色に従って文字色を白にするか、黒にするかを自動で判別します。白い文字にしたい場合は、あらかじめ暗い背景でクリックしておくと便利です。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1211" height="681" src="https://tomosta.jp/wp-content/uploads/2024/09/image-59-edited.png" alt="" class="wp-image-26208" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-59-edited.png 1211w, https://tomosta.jp/wp-content/uploads/2024/09/image-59-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-59-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-59-edited-768x432.png 768w" sizes="auto, (max-width: 1211px) 100vw, 1211px" /></figure>
+
+
+
+<h3 class="wp-block-heading">タイポグラフィーを調整しよう</h3>
+
+
+
+<p>テキストを選択すると、デザインパネルがテキスト用の設定が表示されます。真ん中あたりにある「タイポグラフィー」を設定しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-60-1024x576.png" alt="" class="wp-image-26148" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-60-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-60-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-60-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-60-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-60.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ここでは、次のように設定します。</p>
+
+
+
+<ul class="wp-block-list">
+<li>フォント： Not Sans JP</li>
+
+
+
+<li>太さ： Bold</li>
+
+
+
+<li>文字サイズ： 16</li>
+</ul>
+
+
+
+<p>その他の設定はそのままで良いでしょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1249" height="702" src="https://tomosta.jp/wp-content/uploads/2024/09/image-62-edited.png" alt="" class="wp-image-26209" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-62-edited.png 1249w, https://tomosta.jp/wp-content/uploads/2024/09/image-62-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-62-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-62-edited-768x432.png 768w" sizes="auto, (max-width: 1249px) 100vw, 1249px" /></figure>
+
+
+
+<p>なお、タイポグラフィーは右下の「タイプの設定」をクリックすると、より詳細の設定も可能です。ここでは、詳細は省略しますが、こだわった設定をしたい場合は調整していきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-63-1024x576.png" alt="" class="wp-image-26151" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-63-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-63-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-63-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-63-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-63.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+<h2 class="wp-block-heading">ペンツールを使おう</h2>
+
+
+
+<p>続いて、テキストラベルの右にある「&gt;」の記号を作りましょう。ここでは、「ペン」ツールを使って作成します。ペンツールは、連続した直線や「ベジェ曲線」と呼ばれる曲線を引くことができるツールです。ツールバーの「ペン」ツールをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1028" height="578" src="https://tomosta.jp/wp-content/uploads/2024/09/image-64-edited.png" alt="" class="wp-image-26210" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-64-edited.png 1028w, https://tomosta.jp/wp-content/uploads/2024/09/image-64-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-64-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-64-edited-768x432.png 768w" sizes="auto, (max-width: 1028px) 100vw, 1028px" /></figure>
+
+
+
+<p>そしたら、フレーム内の適当な場所でクリックします。すると、カーソルに青い線が付いてきます（ドラッグではなく、クリック後にカーソルを動かすだけです）。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="774" height="435" src="https://tomosta.jp/wp-content/uploads/2024/09/image-65-edited.png" alt="" class="wp-image-26211" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-65-edited.png 774w, https://tomosta.jp/wp-content/uploads/2024/09/image-65-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-65-edited-768x432.png 768w" sizes="auto, (max-width: 774px) 100vw, 774px" /></figure>
+
+
+
+<p>そしたら、ここで45度の斜めの線を引きたいのですが、マウス操作で正確に45度に設定するのは難しいので、「Shift」キーを押してみましょう。45度単位でしか回転しなくなり、操作しやすくなります。適当な長さで再度クリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1069" height="601" src="https://tomosta.jp/wp-content/uploads/2024/09/image-66-edited.png" alt="" class="wp-image-26212" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-66-edited.png 1069w, https://tomosta.jp/wp-content/uploads/2024/09/image-66-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-66-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-66-edited-768x432.png 768w" sizes="auto, (max-width: 1069px) 100vw, 1069px" /></figure>
+
+
+
+<p>続いて、「Shift」キーを押しながら反対側にカーソルを移動して、同じ角度の線を引きます。この時、先ほど引いた線と同じような長さの場所まで移動すると、赤いガイドラインが表示され、同じ長さであることが示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="998" height="561" src="https://tomosta.jp/wp-content/uploads/2024/09/image-67-edited.png" alt="" class="wp-image-26213" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-67-edited.png 998w, https://tomosta.jp/wp-content/uploads/2024/09/image-67-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-67-edited-768x432.png 768w" sizes="auto, (max-width: 998px) 100vw, 998px" /></figure>
+
+
+
+<p>このガイド線が表示されているところでクリックしましょう。きれいな画像が作成できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1055" height="594" src="https://tomosta.jp/wp-content/uploads/2024/09/image-68-edited.png" alt="" class="wp-image-26214" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-68-edited.png 1055w, https://tomosta.jp/wp-content/uploads/2024/09/image-68-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-68-edited-1024x577.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-68-edited-768x432.png 768w" sizes="auto, (max-width: 1055px) 100vw, 1055px" /></figure>
+
+
+
+<p>これで図形は完成ですが、まだ連続直線が引ける状態になっているので「Esc」キーを押して、解除します。さらにそのままでは、確定状態にはなっていないので、もう何度か「Esc」キーを押して図の状態になるまで解除しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1027" height="578" src="https://tomosta.jp/wp-content/uploads/2024/09/image-69-edited.png" alt="" class="wp-image-26215" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-69-edited.png 1027w, https://tomosta.jp/wp-content/uploads/2024/09/image-69-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-69-edited-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-69-edited-768x432.png 768w" sizes="auto, (max-width: 1027px) 100vw, 1027px" /></figure>
+
+
+
+<h3 class="wp-block-heading">ベクターパスを調整しよう</h3>
+
+
+
+<p>では、この図形を調整して仕上げていきましょう。ペンツールで描いた図形は「ベクターパス」としてデザインパネルで調整できます。ここでは、幅を4ピクセルに設定します。ただし、そのままでは幅だけが変わってしまってゆがんでしまいます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="780" height="439" src="https://tomosta.jp/wp-content/uploads/2024/09/image-70-edited.png" alt="" class="wp-image-26216" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-70-edited.png 780w, https://tomosta.jp/wp-content/uploads/2024/09/image-70-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-70-edited-768x432.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+
+
+
+<p>そこで、レイアウトの右端にある「縦横比を固定」ボタンを先にクリックしておきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-71-1024x576.png" alt="" class="wp-image-26165" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-71-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-71-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-71-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-71-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-71.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>「レイアウト」の「W（幅）」を「4」に設定すると、自動的に高さが「8」に設定され、大きさが調整されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-72-1024x576.png" alt="" class="wp-image-26166" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-72-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-72-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-72-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-72-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-72.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>後は、図形をボタンの表面まで移動して、「線」の色を「FFFFFF（白）」に設定しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="705" height="397" src="https://tomosta.jp/wp-content/uploads/2024/09/image-73-edited.png" alt="" class="wp-image-26217" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-73-edited.png 705w, https://tomosta.jp/wp-content/uploads/2024/09/image-73-edited-300x169.png 300w" sizes="auto, (max-width: 705px) 100vw, 705px" /></figure>
+
+
+
+<p>また、太さを「2」に設定します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-74-1024x576.png" alt="" class="wp-image-26168" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-74-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-74-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-74-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-74-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-74.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これで完成です。</p>
+
+
+
+<h2 class="wp-block-heading">位置調整をしよう</h2>
+
+
+
+<p>最後にそれぞれ作ったパーツの位置調整をして、仕上げていきましょう。まずは、文字ラベルと記号の位置を合わせます。記号をドラッグして、図のような位置に変更しましょう（だいたいで大丈夫です）</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-75-1024x576.png" alt="" class="wp-image-26170" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-75-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-75-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-75-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-75-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-75.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>この時、赤いガイドラインが表示されることがあり、微妙な位置調整ができなくなってしまうので、それが嫌な場合は「Ctrl」キーを押しながらドラッグしましょう。ガイドラインが表示されなくなります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-76-1024x576.png" alt="" class="wp-image-26172" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-76-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-76-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-76-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-76-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-76.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h3 class="wp-block-heading">グループ化しよう</h3>
+
+
+
+<p>さて、これで文字ラベルと記号の位置が決まったので、ずれないように「グループ化」しておくと良いでしょう。まずは、文字ラベルと記号を選択します。「移動」ツールを選んだら、記号をクリックして、「Shift」キーを押しながら文字ラベルもクリックします。（ドラッグで選択してしまうと、ボタンの土台も選択されてしまうので、ここではクリックで選択しました）。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-77-1024x576.png" alt="" class="wp-image-26174" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-77-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-77-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-77-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-77-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-77.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そしたら、右クリックして「選択範囲のグループ化」を選びます。またはキーボードショートカットの「Command(Ctrl)+G」でもグループ化できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-79-1024x576.png" alt="" class="wp-image-26177" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-79-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-79-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-79-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-79-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-79.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">整列ツールを使おう</h2>
+
+
+
+<p>最後に、ボタンの土台とラベルの位置を調整します。マウス操作でも調整できますが、ここでは「整列」ツールを使ってみましょう。</p>
+
+
+
+<p>土台とラベルを選択したら、デザインパネルが「2個選択されました」となっている事を確認し、上部の「位置」の各ボタンをクリックしてみましょう。左寄せや中央揃え、右寄せや上揃えなど、位置をそれぞれ整列できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="773" height="435" src="https://tomosta.jp/wp-content/uploads/2024/09/image-80-edited.png" alt="" class="wp-image-26218" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-80-edited.png 773w, https://tomosta.jp/wp-content/uploads/2024/09/image-80-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-80-edited-768x432.png 768w" sizes="auto, (max-width: 773px) 100vw, 773px" /></figure>
+
+
+
+<p>ここでは、横も縦も「中央」に設定しましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="895" height="503" src="https://tomosta.jp/wp-content/uploads/2024/09/image-81-edited.png" alt="" class="wp-image-26219" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-81-edited.png 895w, https://tomosta.jp/wp-content/uploads/2024/09/image-81-edited-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-81-edited-768x432.png 768w" sizes="auto, (max-width: 895px) 100vw, 895px" /></figure>
+
+
+
+<p>なおこの時、グループ化をしていない状態だった場合は、整列ツールが正しく使えないで気をつけましょう。例えば左寄せをすると、図のように記号も左に寄ってしまいます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/09/image-82-1024x576.png" alt="" class="wp-image-26183" srcset="https://tomosta.jp/wp-content/uploads/2024/09/image-82-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/09/image-82-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/09/image-82-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/09/image-82-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/09/image-82.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>整列ツールを正しく使うためにも、各パーツは適切にグループ化しておくと良いでしょう。</p>
+
+
+
+<p>こうしてボタンを作成することができました。Figmaの基本的な操作を抑えることができました。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.figma.com/" data-type="link" data-id="https://www.figma.com/">Figma</a></li>
+</ul>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7150380587227549"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7150380587227549"
+     data-ad-slot="6093446070"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2024/09/figma-ui3-make-button/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Astro DBでデータをページに表示しよう</title>
+		<link>https://tomosta.jp/2024/04/astro-db-view/</link>
+					<comments>https://tomosta.jp/2024/04/astro-db-view/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Mon, 01 Apr 2024 16:43:07 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<category><![CDATA[Astro]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=24418</guid>
+
+					<description><![CDATA[Astro DBは、Astroが公式で提供するデータベースサービスです。これを利用すると、簡易的なCMSとして利用したり、お問い合わせフォームの内容を一時的に保管しておく場所として利用するなど、情報を記録したり取り出した [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Astro DBでデータをページに表示しよう" width="500" height="281" src="https://www.youtube.com/embed/U-IPNQ14A7U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><a href="https://astro.build/db/" target="_blank" rel="noreferrer noopener">Astro DB</a>は、<a href="https://astro.build/">Astro</a>が公式で提供するデータベースサービスです。これを利用すると、簡易的なCMSとして利用したり、お問い合わせフォームの内容を一時的に保管しておく場所として利用するなど、情報を記録したり取り出したりなどの用途で広く利用できます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-1024x576.png" alt="" class="wp-image-24422" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>早速使ってみましょう。</p>
+
+
+
+<h2 class="wp-block-heading">Astro Studioを利用しよう</h2>
+
+
+
+<p>Astro DBは<a href="https://studio.astro.build/" target="_blank" rel="noreferrer noopener">Astro Studio</a>というサービス内で提供されているため、まずはAstro Studioのアカウントを準備する必要があります。そして、Astro StudioのアカウントはGitHubアカウントを利用するため、まずはGitHubアカウントを準備しましょう。</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-wp-oembed-blog-card wp-block-embed-wp-oembed-blog-card"><div class="wp-block-embed__wrapper">
+https://github.com/
+</div></figure>
+
+
+
+<p>そしたら、Astro Studioにサインインします。</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-wp-oembed-blog-card wp-block-embed-wp-oembed-blog-card"><div class="wp-block-embed__wrapper">
+https://studio.astro.build/
+</div></figure>
+
+
+
+<p>ログインすると、図のような「プロジェクト」画面が表示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-1-1024x576.png" alt="" class="wp-image-24423" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-1-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-1-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-1-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-1-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-1.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">プロジェクトを作成しよう</h2>
+
+
+
+<p>続いて、プロジェクトを作成します。プロジェクトを作成すると、データベーススペースが準備されます。</p>
+
+
+
+<p>右上の「+」ボタンをクリックしましょう。選択肢が表示されるので、ここでは一番下の「Create Empty Project」をクリックして空のプロジェクトを作成します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-2-1024x576.png" alt="" class="wp-image-24424" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-2-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-2-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-2-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-2-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-2.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なお、他の選択肢は次の通りです。</p>
+
+
+
+<ul class="wp-block-list">
+<li>Import from GitHub repo… 既存のプロジェクトをGitHubからインポートします</li>
+
+
+
+<li>Create from Template… テンプレートから選択します。2024年現在ではJob Boardと、Wait Listというテンプレートが準備されています</li>
+
+
+
+<li>Create from CLI… コマンドラインを使って作成できます</li>
+
+
+
+<li>Create Empty Project… 新しいプロジェクトを作成します</li>
+</ul>
+
+
+
+<p>続いて、作成するGitHubのリポジトリ名を入力します。新しく作成されるので、既存のリポジトリ名と重ならない名前にしましょう。その他、次のような設定をします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-3-1024x576.png" alt="" class="wp-image-24425" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-3-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-3-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-3-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-3-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-3.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<ul class="wp-block-list">
+<li>Repo Visibility… リポジトリをプライベートに設定します。基本的にはチェックをつけたままにしましょう。誰でも見られるリポジトリになってしまいます。</li>
+
+
+
+<li>Region… データベースの配置場所を選びます。「Asia（Japan）」を選ぶと、日本国内のサーバーに配置されます。</li>
+</ul>
+
+
+
+<p>こうしてプロジェクトを作成しましょう。完成すると、図のような画面が表示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-4-1024x576.png" alt="" class="wp-image-24426" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-4-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-4-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-4-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-4-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-4.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">リポジトリをクローンしよう</h2>
+
+
+
+<p>プロジェクトが作られると、指定されたGitHubリポジトリに必要なファイル群が配置されます。これをクローンしましょう。GitHub Desktopをセットアップしていたら、「Open with GitHub Desktop」でクローンすると良いでしょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-5-1024x576.png" alt="" class="wp-image-24427" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-5-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-5-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-5-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-5-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-5.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これを、VSCodeで開きましょう。</p>
+
+
+
+<h2 class="wp-block-heading">依存ファイルをインストールして起動しよう</h2>
+
+
+
+<p>クローンしたプロジェクトには、Node.jsの依存ファイル群が含まれていないので、これをインストールしましょう。VSCodeのターミナルを起動して、次のように入力します。</p>
+
+
+
+<pre class="wp-block-code"><code>npm install</code></pre>
+
+
+
+<p>依存ファイルがインストールできたら、ローカルサーバーを起動しましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>npm run dev</code></pre>
+
+
+
+<p>これで、Astroのプロジェクトが起動しました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-6-1024x576.png" alt="" class="wp-image-24428" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-6-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-6-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-6-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-6-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-6.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">データベースを定義しよう</h2>
+
+
+
+<p>Astro Studioで作成したプロジェクトには、あらかじめ「db」というフォルダが作られていて、ファイルが生成されています。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-7-1024x576.png" alt="" class="wp-image-24429" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-7-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-7-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-7-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-7-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-7.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>なお、既存のAstroのプロジェクトに後からAstro DBを追加したい場合は、次のコマンドを入力します。</p>
+
+
+
+<pre class="wp-block-code"><code>npx astro add db</code></pre>
+
+
+
+<p>そしたら、「db/config.ts」ファイルを開きましょう。ここで、データベースのテーブルを定義します。</p>
+
+
+
+<p>データベースは「カラム」という、Excelの「列」のようなものをあらかじめ準備する必要があります。このカラムに対してデータを格納していくイメージになります。</p>
+
+
+
+<p>ここでは、簡易的なコメント欄を作成する事を想定し、タイトルと内容を格納するカラムを準備しましょう。次のように書き加えます。</p>
+
+
+
+<pre class="wp-block-code"><code>import { defineDb, defineTable, column } from "astro:db";
+
+const Comment = defineTable({
+  columns: {
+    title: column.text(),
+    body: column.text(),
+  },
+});
+
+// &lt;https://astro.build/db/config>
+export default defineDb({
+  tables: { Comment },
+});
+</code></pre>
+
+
+
+<p>それぞれ解説しましょう。</p>
+
+
+
+<p>まずは、データベースの定義に必要なモジュールをインポートします。</p>
+
+
+
+<pre class="wp-block-code"><code>import { defineDb, defineTable, column } from "astro:db";</code></pre>
+
+
+
+<p>ここでは、「defineDb」「defineTable」「column」をインポートしました。</p>
+
+
+
+<p>そして、「Comment」という名前のテーブルを定義します。</p>
+
+
+
+<pre class="wp-block-code"><code>const Comment = defineTable({
+  columns: {
+    title: column.text(),
+    body: column.text(),
+  },
+});
+</code></pre>
+
+
+
+<p>このテーブルには、titleとbodyというカラムを準備しています。カラムには、「データ型」を指定する必要があるので、ここではテキスト（column.text()）が指定できるようにしています。データ型には、次のものが指定できます。</p>
+
+
+
+<ul class="wp-block-list">
+<li>column.text()… テキスト</li>
+
+
+
+<li>column.number()… 数字</li>
+
+
+
+<li>column.boolean()… ブーリアン（trueまたはfalse）</li>
+
+
+
+<li>column.date()… 日付</li>
+
+
+
+<li>column.json()… JSONデータ</li>
+</ul>
+
+
+
+<p>データ型の指定のカッコの中にはオプションを指定できます。</p>
+
+
+
+<p>最後に、ここで作成したテーブルをAstro DBに登録します。</p>
+
+
+
+<pre class="wp-block-code"><code>export default defineDb({
+  tables: { Comment },
+});</code></pre>
+
+
+
+<p>これで準備完了です。</p>
+
+
+
+<h2 class="wp-block-heading">シードデータを作成しよう</h2>
+
+
+
+<p>ここで準備したデータベースには、データを挿入することができるのですが、開発中に毎回データを入れていくのは大変です。そこで、「シーズデータ」というシード（Seed:種）のデータをあらかじめ準備しておき、プログラムを動作させる度に、それらのデータが準備されていると開発が楽になります。</p>
+
+
+
+<p>「db/seed.ts」というファイルがあらかじめ準備されているため、ここに次のように追記しましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>import { db, News } from "astro:db";
+
+export default async function seed() {
+  // Seed local development data.
+  // See &lt;https://docs.astro.build/en/guides/astro-db/#seed-your-database>
+  await db.insert(News).values(&#91;
+    { id: 1, title: "こんにちは", body: "拝見しました" },
+    { id: 2, title: "初めまして", body: "よろしくお願いします" },
+  ]);
+}
+</code></pre>
+
+
+
+<p>JSON形式でデータを準備していきます。これで、テーブルにはあらかじめデータが準備された状態で開発を始めることができる用になります。</p>
+
+
+
+<h2 class="wp-block-heading">Astro DBの内容を画面に表示しよう</h2>
+
+
+
+<p>それではいよいよ、このデータベースを使ってコメントの一覧ページを作成してみましょう。ここでは、あらかじめ準備されている「src/pages/index.astro」を変更していきましょう。</p>
+
+
+
+<p>まずはファイルの先頭に、データを取得するための処理を記述します。</p>
+
+
+
+<pre class="wp-block-code"><code>---
+import { db, Comment } from "astro:db";
+const comments = await db.select().from(Comment);
+---
+...
+</code></pre>
+
+
+
+<p>これでニュースが取得されます。後は、JSONデータの配列データなので、これを繰り返しで処理していけば、一覧画面を作成することができます。</p>
+
+
+
+<pre class="wp-block-code"><code>{comments.map(({ title, body }) => (
+&lt;article>
+  &lt;h2>{title}&lt;/h2>
+  &lt;p>{body}&lt;/p>
+&lt;/article>
+))}
+</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-8-1024x576.png" alt="" class="wp-image-24434" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-8-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-8-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-8-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-8-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-8.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>このあたりのプログラムの解説は省略するため、必要な場合はAstroの基本をご確認ください。</p>
+
+
+
+<h2 class="wp-block-heading">Cloudflare Pagesで公開しよう</h2>
+
+
+
+<p>これで、ひとまずWebサイトが完成したとして、これをネットに公開しましょう。公開するには、サーバーが必要となりますが、ここでは<a href="https://pages.cloudflare.com/" target="_blank" rel="noreferrer noopener">Cloudflare Pages</a>を利用して公開していきます。</p>
+
+
+
+<p>Cloudflareのアカウントを作成したら、「Workers &amp; Pages」で「Pages」タブをクリックして、「Gitに接続」ボタンをクリックしましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-9-1024x576.png" alt="" class="wp-image-24435" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-9-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-9-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-9-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-9-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-9.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>GitHubアカウントで連携して、先ほどAstro Studioで作成したリポジトリを選択します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-10-1024x576.png" alt="" class="wp-image-24436" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-10-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-10-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-10-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-10-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-10.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>プロジェクト名やプロダクションブランチはそのままにして、「ビルドの設定」の「フレームワークプリセット」で「Astro」を選択します。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-11-1024x576.png" alt="" class="wp-image-24437" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-11-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-11-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-11-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-11-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-11.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これで準備完了です。</p>
+
+
+
+<h2 class="wp-block-heading">Astro DBとCloudflareを接続しよう</h2>
+
+
+
+<p>続いて、Astro DBとCloudflareを接続します。これには、Appトークンと呼ばれるキーコードを利用します。</p>
+
+
+
+<p>Astro Studioにログインしたら、プロジェクトの「Generate App Token（Appトークンを作成する）」をクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-12-1024x576.png" alt="" class="wp-image-24438" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-12-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-12-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-12-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-12-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-12.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>トークン名には見分けがつくような「Cloudflare」などを入力して「Generate」ボタンをクリックすると、トークン文字列が発行されるので、これをコピーしておきましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-14-1024x576.png" alt="" class="wp-image-24440" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-14-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-14-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-14-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-14-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-14.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>次に、Cloudflare Pagesで「設定」タブの「環境変数」でプロダクションの「変数を追加する」ボタンをクリックしましょう。</p>
+
+
+
+<p>変数名に「ASTRO_STUDIO_APP_TOKEN」と入力し、値に今コピーしたトークンを貼り付けます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-15-1024x576.png" alt="" class="wp-image-24441" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-15-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-15-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-15-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-15-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-15.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>保存しておきましょう。</p>
+
+
+
+<h2 class="wp-block-heading">リモートのDBと接続しよう</h2>
+
+
+
+<p>続いて、Astroの設定ファイルでDBをリモートのDBに設定します。これにより、Astro Studio内のDBが利用されるようになります。</p>
+
+
+
+<p>package.jsonファイルを開いたら、8行目付近の記述を次のように変更しましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>"build": "astro build",
+↓
+"build": "astro buid<strong> --remote</strong>",</code></pre>
+
+
+
+<p>これですべての準備が整いました。GitHubに最新ファイルをプッシュすれば、Cloudflare Pagesでビルドが始まります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-16-1024x576.png" alt="" class="wp-image-24442" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-16-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-16-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-16-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-16-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-16.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">データベースを更新しよう</h2>
+
+
+
+<p>それではここに、新しいデータを投入してみましょう。Astro Studioでプロジェクトを選択したら「1 Tables」と書かれたエリアをクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-17-1024x576.png" alt="" class="wp-image-24443" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-17-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-17-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-17-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-17-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-17.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>すると、データベースの管理画面が表示されます。ここで、新しいデータを投入してみましょう。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-18-1024x576.png" alt="" class="wp-image-24444" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-18-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-18-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-18-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-18-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-18.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>画面を更新するには再ビルドが必要になるので、Cloudflare Pagesでビルド一覧を表示したら、一番右側のメニューボタンから「デプロイを再試行」をクリックします。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-19-1024x576.png" alt="" class="wp-image-24445" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-19-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-19-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-19-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-19-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-19.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>ビルドが正常に終わったら、発行されたURLにアクセスしてみましょう。データベースに挿入した内容が反映されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/04/image-20-1024x576.png" alt="" class="wp-image-24446" srcset="https://tomosta.jp/wp-content/uploads/2024/04/image-20-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/04/image-20-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/04/image-20-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/04/image-20-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/04/image-20.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>こうして、手軽にデータベースと連携できるので、Astroをますます便利に利用していきましょう。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://astro.build/" target="_blank" rel="noreferrer noopener">Astro</a></li>
+
+
+
+<li><a href="https://astro.build/db/" target="_blank" rel="noreferrer noopener">Astro DB</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2024/04/astro-db-view/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TypeScriptの「型」とはなにか</title>
+		<link>https://tomosta.jp/2024/03/typescript_type/</link>
+					<comments>https://tomosta.jp/2024/03/typescript_type/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Mon, 11 Mar 2024 10:38:21 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<category><![CDATA[TypeScript]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=24353</guid>
+
+					<description><![CDATA[TypeScriptは、JavaScriptをベースにさまざまな機能を追加したプログラミング言語ですが、中でも特徴的なのは、名前にもある「型（Type）」という特徴です。 例えばJavaScriptの次のプログラムを見て [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="TypeScriptの「型」とはなにか" width="500" height="281" src="https://www.youtube.com/embed/KMOPrW3uRPY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><a href="https://www.youtube.com/@tomosta"></a></p>
+
+
+
+<p>TypeScriptは、JavaScriptをベースにさまざまな機能を追加したプログラミング言語ですが、中でも特徴的なのは、名前にもある「型（Type）」という特徴です。</p>
+
+
+
+<p>例えばJavaScriptの次のプログラムを見てみましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>let sum = 1 + 2;
+console.log(sum); // 3
+</code></pre>
+
+
+
+<p>これをTypeScriptにした場合は、次のように「型」を宣言しなければなりません。</p>
+
+
+
+<pre class="wp-block-code"><code>let sum<strong>: number</strong> = 1 + 2;
+console.log(sum); // 3
+</code></pre>
+
+
+
+<p>なぜ、このような「型」を宣言しなければならないのでしょうか？　どんなメリットがあるのでしょうか？　ここでは、そんな「型」について紹介していきましょう。</p>
+
+
+
+<h2 class="wp-block-heading">型のメリット</h2>
+
+
+
+<p>まずは「型」があると、どんな良いことがあるのでしょう。次のJavaScriptのプログラムを見てみましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>let price;
+price = 1000;
+console.log(price * 1.1); // 1100
+</code></pre>
+
+
+
+<p>1000に1.1をかけ算した結果を表示しています。しかし、例えば開発をしている途中で、次のようなおかしな値を代入してしまったとしましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>let price;
+price = 1000;
+// ...
+price = 'abc';
+console.log(price * 1.1); // NaN
+</code></pre>
+
+
+
+<p>「abc」という「文字列」を代入してしまったため、計算ができなくなってしまい、結果は「NaN（Not a Number）」というエラーになってしまいました。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-23-1024x576.png" alt="" class="wp-image-24355" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-23-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-23-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-23-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-23-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-23.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>エラーになればまだ良いのですが、次のようなケースはもっとやっかいです。</p>
+
+
+
+<pre class="wp-block-code"><code>let price, price2;
+price = 1000;
+price2 = '100';
+price = price + price2; // 1000100になる
+console.log(price * 1.1); // 1100110
+</code></pre>
+
+
+
+<p>priceとprice2を足して合計を出そうとしたら、うっかりprice2が文字列であったために文字列連結となって、さらにこれが計算の時には数字に変わってしまうため、結果は1100110という全く違う計算結果が出てきてしまいます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-24-1024x576.png" alt="" class="wp-image-24356" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-24-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-24-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-24-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-24-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-24.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>このバグは非常に見つけにくく、この誤った計算結果を基に処理を続けようとしてしまうため、決済処理などの場合には非常に危険です。</p>
+
+
+
+<p>JavaScriptは、このような柔軟性の代わりに非常に危うい言語設計になっています。</p>
+
+
+
+<p>TypeScriptで型を宣言した場合、これらのプログラムはすべてエラーとなってコンパイルができません。</p>
+
+
+
+<pre class="wp-block-code"><code>let price: number, price2: number;
+price = 1000;
+price2 = '100';
+price = price + price2; // 1000100になる
+console.log(price * 1.1); // 1100110
+</code></pre>
+
+
+
+<p>price2のところで「型 &#8216;string&#8217; を型 &#8216;number&#8217; に割り当てることはできません。」とエラーになりますし、price2をstringにした場合も足し算ができなくなります。こうして、プログラムの間違いを開発中に気がつくことができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-25-1024x576.png" alt="" class="wp-image-24358" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-25-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-25-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-25-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-25-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-25.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">静的型付けと動的型付け</h2>
+
+
+
+<p>なお、正確なことをいえばJavaScriptに変数の「型」がないわけではありません。プログラミング言語には、基本的には必ず「型」があります。ただし、JavaScriptは「動的型付け」というしくみで動作していて、変数の型が「その場で」決まります。</p>
+
+
+
+<p>それに対して、TypeScriptでは「静的型付け」というあらかじめ型を宣言してから利用する方式に変更しています。</p>
+
+
+
+<p>動的型付けの場合、非常に手軽にプログラムを作成することができます。あらかじめどんな値が入るのかを想定する必要もないですし、変数を自由に再利用することができます。しかし、大規模なプログラム開発だったり、チーム開発をすると、変数がいろいろな使われ方をされてしまっていると、どんな動きをするのかの見通しが悪くなったりして、見にくいプログラムになったり、バグが発生する原因になったりします。</p>
+
+
+
+<p>そこで、TypeScriptでは静的型付けの概念を取り入れ、これらの問題を解消したというわけです。</p>
+
+
+
+<h2 class="wp-block-heading">型の変換</h2>
+
+
+
+<p>TypeScriptでも先のプログラムを正しく動作させることができます。それが「型変換」という手法です。次のように変更してみましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>let price: number = 1000;
+let price2: number = <strong>Number</strong>('100');
+price = price + price2;
+console.log(price * 1.1);
+</code></pre>
+
+
+
+<p>文字列を代入するときに「Number()」で囲みます。これで、型が変換されてnumberとして処理されます。</p>
+
+
+
+<h2 class="wp-block-heading">型推論</h2>
+
+
+
+<p>TypeScriptは、型を常に宣言しなければならずに面倒と感じるかも知れませんが、実は型の宣言は省略できる場合があります。それは、変数を宣言するときに同時に代入した場合。次の例を見てみましょう。</p>
+
+
+
+<pre class="wp-block-code"><code>let price = 1000;
+let price2 = '100';
+price = price + price2;
+console.log(price * 1.1);
+</code></pre>
+
+
+
+<p>この場合、特に型は宣言していませんが、エラーが表示されます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-26-1024x576.png" alt="" class="wp-image-24360" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-26-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-26-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-26-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-26-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-26.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>これは、TypeScriptが自動的に最初に代入された値の内容から型を「推論」しているため。実際、VSCodeで変数名にマウスカーソルを重ねると、正しい型が表示されています。</p>
+
+
+
+<p>そのため、直接代入する変数などの場合には型の定義を省略することができるのです。</p>
+
+
+
+<h2 class="wp-block-heading">危険なany型</h2>
+
+
+
+<p>ではTypeScriptでは、一度型を決めた変数は、後から別のものを代入することはできないのでしょうか？　一応、やり方がいくつか準備されています。</p>
+
+
+
+<p>まずは、型の定義を複数指定することができます。「|」で区切って指定します。</p>
+
+
+
+<pre class="wp-block-code"><code>let age: <strong>number | string</strong>;
+age = 25;
+age = '25歳';
+console.log(age);
+</code></pre>
+
+
+
+<p>この場合、「age」という変数には数字と文字列を代入することができるようになります。また、「なんでも入れられる」という「any」という型もあります。</p>
+
+
+
+<pre class="wp-block-code"><code>let age: <strong>any</strong>;
+age = 25;
+age = '25歳';
+console.log(age);
+</code></pre>
+
+
+
+<p>なお、実は代入をしない変数宣言時に型を指定しなかった場合は、「any」になります。</p>
+
+
+
+<pre class="wp-block-code"><code><strong>let age;</strong>
+age = 25;
+age = '25歳';
+console.log(age);
+</code></pre>
+
+
+
+<p>こうすれば、従来通りのJavaScriptと同じようにプログラムを作ることもできます。</p>
+
+
+
+<p>とはいえ、これは主に過去に開発したJavaScriptのプログラムを移植する際に、正しく行こうができないときのために準備されている手段であり、「any」を多用したプログラム開発はTypeScriptのメリットがなくなってしまうので、あまり良い方法とは言えません。</p>
+
+
+
+<p>できればやはり、きちんと型を考えてプログラムを開発した方が良いでしょう。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.udemy.com/course/chanto-ts/?referralCode=B656FF5B1ED5E85FF840" target="_blank" rel="noreferrer noopener">ちゃんと学ぶ、TypeScript（Udemy）</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2024/03/typescript_type/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>kintoneがWebエンジニアにおすすめな理由</title>
+		<link>https://tomosta.jp/2024/03/kintone_for_webengineer/</link>
+					<comments>https://tomosta.jp/2024/03/kintone_for_webengineer/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Tue, 05 Mar 2024 07:16:56 +0000</pubDate>
+				<category><![CDATA[ともすたmedia]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=24345</guid>
+
+					<description><![CDATA[kintone（キントーン）は、サイボウズ社が運営する「業務アプリ制作のノーコードツール」とされています。 こう聞くと、エンジニアにとってはあまり縁のなさそうなツールに感じますが、これはサイボウズ社がターゲット層に向けて [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Webエンジニアにkintoneがおすすめな理由" width="500" height="281" src="https://www.youtube.com/embed/mfGm8xabrRo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>kintone（キントーン）は、サイボウズ社が運営する「業務アプリ制作のノーコードツール」とされています。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-17-1024x576.png" alt="" class="wp-image-24346" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-17-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-17-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-17-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-17-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-17.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>こう聞くと、エンジニアにとってはあまり縁のなさそうなツールに感じますが、これはサイボウズ社がターゲット層に向けて、あえて分かりやすいメッセージにしているだけで、実際の所はkintoneというのはMySQLにWebインタフェースやAPIを備えたWebデータベースです。</p>
+
+
+
+<p>こう聞けば、急にWebエンジニアにも身近な存在になるのではないでしょうか。そこでこの記事では、そんなkintoneをエンジニア目線からそのメリット実際の使い方などをご紹介していきましょう。</p>
+
+
+
+<h2 class="wp-block-heading">kintoneをデータベースに利用するメリット</h2>
+
+
+
+<p>kintoneをWebデータベースとして利用する大きなメリットは、セキュリティです。kintoneは、サイボウズが運営するクラウド基盤上で運用されています。ここには、多くの日本の中小企業が利用している「サイボウズoffice」なども同居しているクラウドサーバーであり、セキュリティには細心の注意が払われています。</p>
+
+
+
+<p>ISMAPやISMS等の第三者認証も取得されており、信頼してデータを預けることができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-18-1024x576.png" alt="" class="wp-image-24347" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-18-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-18-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-18-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-18-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-18.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">管理画面が不要</h2>
+
+
+
+<p>kintoneには管理画面が標準で装備されています。テーブル（アプリと呼びます）の設計から、レコードの管理、集計等を管理画面上からノーコードで利用することができます。</p>
+
+
+
+<p>これにより、管理画面などを別途準備する必要がありません。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-19-1024x576.png" alt="" class="wp-image-24348" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-19-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-19-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-19-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-19-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-19.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">APIで開発が可能</h2>
+
+
+
+<p>kintoneでは、REST APIを利用したAPIが提供されています。データの取得はもちろん、新規レコードの追加やレコードの変更・削除など、ほぼすべての操作をAPIを通じて行うことができ、フロントエンドプログラムのバックボーンとして利用が可能です。</p>
+
+
+
+<p>このように、kintoneはフロントエンド開発に役立つのはもちろん、サーバーサイドのエンジニアとしては、セキュアなデータベースを手軽に利用することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-20-1024x576.png" alt="" class="wp-image-24349" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-20-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-20-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-20-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-20-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-20.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>そこで、kintoneを次のような用途で利用することができます。</p>
+
+
+
+<h2 class="wp-block-heading">お問い合わせデータベースとして</h2>
+
+
+
+<p>フォームから入力された個人情報を、安全に保管するためのデータベースとして利用できます。</p>
+
+
+
+<p>APIを「登録のみ」解放すれば、APIがハッキングされたとしてもデータを抜き出すことができません。挿入された問い合わせデータはkintoneに実際にログインをして確認すれば良いことになります。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-21-1024x576.png" alt="" class="wp-image-24350" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-21-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-21-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-21-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-21-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-21.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">ヘッドレスCMSとして</h2>
+
+
+
+<p>見出しや本文など、CMSとしてフィールドを設計すれば、ヘッドレスCMSとしてフロントエンドのフレームワークなどと連携することができます。</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://tomosta.jp/wp-content/uploads/2024/03/image-22-1024x576.png" alt="" class="wp-image-24351" srcset="https://tomosta.jp/wp-content/uploads/2024/03/image-22-1024x576.png 1024w, https://tomosta.jp/wp-content/uploads/2024/03/image-22-300x169.png 300w, https://tomosta.jp/wp-content/uploads/2024/03/image-22-768x432.png 768w, https://tomosta.jp/wp-content/uploads/2024/03/image-22-1536x864.png 1536w, https://tomosta.jp/wp-content/uploads/2024/03/image-22.png 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Webサイト上のデータベースとして</h2>
+
+
+
+<p>Webサイト上に、何かのデータをリストアップしたい場合や、大量のデータを提示したい場合なども、kintone上のデータを使ってWebページを構築すれば、更新も簡単になります。</p>
+
+
+
+<p>このように、kintoneを利用するには多くのメリットがあります。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://kintone.cybozu.co.jp/" target="_blank" rel="noreferrer noopener">kintone</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2024/03/kintone_for_webengineer/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>新刊『Webエンジニアを育てる学校』が発売されました</title>
+		<link>https://tomosta.jp/2024/03/web_engineer_book/</link>
+					<comments>https://tomosta.jp/2024/03/web_engineer_book/#respond</comments>
+		
+		<dc:creator><![CDATA[ともすた]]></dc:creator>
+		<pubDate>Sat, 02 Mar 2024 12:35:21 +0000</pubDate>
+				<category><![CDATA[お知らせ]]></category>
+		<category><![CDATA[書籍]]></category>
+		<guid isPermaLink="false">https://tomosta.jp/?p=24333</guid>
+
+					<description><![CDATA[この度、たにぐち まことの新刊『Webエンジニアを育てる学校』が発売されました。 本書は近年、Web制作の学習において、必要となる前提知識の幅が非常に広いことから、これを網羅的に学べる書籍として執筆しました。 特に、We [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="570" height="200" src="https://tomosta.jp/wp-content/uploads/2024/03/web-engineer-school-1.png" alt="" class="wp-image-24334" srcset="https://tomosta.jp/wp-content/uploads/2024/03/web-engineer-school-1.png 570w, https://tomosta.jp/wp-content/uploads/2024/03/web-engineer-school-1-300x105.png 300w" sizes="auto, (max-width: 570px) 100vw, 570px" /></figure></div>
+
+
+<p>この度、たにぐち まことの新刊『Webエンジニアを育てる学校』が発売されました。</p>
+
+
+
+<p>本書は近年、Web制作の学習において、必要となる前提知識の幅が非常に広いことから、これを網羅的に学べる書籍として執筆しました。</p>
+
+
+
+<p>特に、Webの学習をするに当たって登場する、膨大な数の「用語」について、1つ1つ丁寧に解説しました。仕事的な話から、フロントエンド、サーバーサイド、セキュリティや法律まで、書籍と特典PDFで幅広く解説しました。</p>
+
+
+
+<p>本書だけで学ぶという書籍ではありませんが、他の書籍や動画講義、スクールなどで学んでいるときに、「この言葉が分からない」とか「この部分についてもっと理解したい」と思ったときに、本書を開いていただければと思います。</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://amzn.to/3wwNgKa" target="_blank" rel="noreferrer noopener">Webエンジニアを育てる学校</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://tomosta.jp/2024/03/web_engineer_book/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
