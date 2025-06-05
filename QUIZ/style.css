@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Maru+Gothic&display=swap');
+
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+h1,h2,h3{
+  /* font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif; */
+}
+
+h2{
+  border-bottom: 1px solid #585959;
+}
+
+ul li, ol li{
+  padding: 1em;
+  list-style-position: inside;
+}
+
+div#main{
+  padding: 0 1.5em;
+} */
+
+div.section{
+  margin-top: 2em;
+}
+
+div#section-correct-answer{
+  display: none;
+}
+
+ol.answers{
+  list-style: upper-alpha;
+}
+
+ol.answers li:hover{
+  border: 0.1em solid #1e366a;
+  background-color: #e5ecfc;
+  padding: 0.9em;
+  cursor: pointer;
+}
+
+span#correct-answer {
+  font-weight: bold;
+  color: #f05959;
+}
